@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Tests... [...UPDATE THIS...]
+# Purpose: Tests cleaned data
 # Author: Annie Yan, Will Davidson, Jason Ngo
 # Data: 15 February 2023 
 # Contact: yanzixin0807@gmail.com
@@ -10,7 +10,7 @@
 
 #### Workspace setup ####
 library(tidyverse)
-# [...UPDATE THIS...]
+
 
 #### Test data ####
 
