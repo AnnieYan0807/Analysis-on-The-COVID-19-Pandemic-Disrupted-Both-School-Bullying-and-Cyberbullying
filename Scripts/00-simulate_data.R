@@ -1,19 +1,49 @@
 #### Preamble ####
-# Purpose: Simulates... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Data: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Simulates The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying
+# Author: Annie Yan, Will Davidson, Jason Ngo
+# Data: 15 February 2023 
+# Contact: yanzixin0807@gmail.com
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: None
+# Any other information needed? None
 
 
 #### Workspace setup ####
 library(tidyverse)
-# [...UPDATE THIS...]
+
 
 #### Simulate data ####
-# [...ADD CODE HERE...]
+set.seed(853)
 
+simulated_bullying_data <-
+  tibble(
+    Date = rep(x = as.Date("2021-01-01") + c(0:364), times = 3),
+    
+    State = c(
+      rep(x = "AK", times = 365),
+      rep(x = "CA", times = 365),
+      rep(x = "NY", times = 365)
+    ),
+    
+    Cyberbullying =
+      rpois(
+        n = 365 * 3,
+        lambda = 10
+      ),
+    
+    Schoolbullying =
+      rpois(
+        n = 365 * 3,
+        lambda = 20
+      ),
 
+    School_cyber_bullying =
+      rpois(
+        n = 365 * 3,
+        lambda = 80
+      )
+    
+    )
+    
 
+head(simulated_bullying_data)
