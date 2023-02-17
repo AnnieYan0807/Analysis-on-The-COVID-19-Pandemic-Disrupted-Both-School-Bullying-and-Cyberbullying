@@ -1,1111 +1,221 @@
-"","State.Name","date","keyword","hits","ratio"
-"1","California","2012-01-01","Cyberbullying",47,1
-"2","California","2012-02-01","Cyberbullying",59,1
-"3","California","2012-03-01","Cyberbullying",55,1
-"4","California","2012-04-01","Cyberbullying",43,1
-"5","California","2012-05-01","Cyberbullying",55,1
-"6","California","2012-06-01","Cyberbullying",44,1
-"7","California","2012-07-01","Cyberbullying",24,1
-"8","California","2012-08-01","Cyberbullying",28,1
-"9","California","2012-09-01","Cyberbullying",55,1
-"10","California","2012-10-01","Cyberbullying",63,1
-"11","California","2012-11-01","Cyberbullying",58,1
-"12","California","2012-12-01","Cyberbullying",43,1
-"13","California","2013-01-01","Cyberbullying",42,1
-"14","California","2013-02-01","Cyberbullying",43,1
-"15","California","2013-03-01","Cyberbullying",52,1
-"16","California","2013-04-01","Cyberbullying",63,1
-"17","California","2013-05-01","Cyberbullying",62,1
-"18","California","2013-06-01","Cyberbullying",40,1
-"19","California","2013-07-01","Cyberbullying",20,1
-"20","California","2013-08-01","Cyberbullying",35,1
-"21","California","2013-09-01","Cyberbullying",48,1
-"22","California","2013-10-01","Cyberbullying",74,1
-"23","California","2013-11-01","Cyberbullying",72,1
-"24","California","2013-12-01","Cyberbullying",62,1
-"25","California","2014-01-01","Cyberbullying",48,1
-"26","California","2014-02-01","Cyberbullying",56,1
-"27","California","2014-03-01","Cyberbullying",52,1
-"28","California","2014-04-01","Cyberbullying",64,1
-"29","California","2014-05-01","Cyberbullying",68,1
-"30","California","2014-06-01","Cyberbullying",48,1
-"31","California","2014-07-01","Cyberbullying",27,1
-"32","California","2014-08-01","Cyberbullying",29,1
-"33","California","2014-09-01","Cyberbullying",65,1
-"34","California","2014-10-01","Cyberbullying",82,1
-"35","California","2014-11-01","Cyberbullying",69,1
-"36","California","2014-12-01","Cyberbullying",49,1
-"37","California","2015-01-01","Cyberbullying",49,1
-"38","California","2015-02-01","Cyberbullying",69,1
-"39","California","2015-03-01","Cyberbullying",83,1
-"40","California","2015-04-01","Cyberbullying",61,1
-"41","California","2015-05-01","Cyberbullying",72,1
-"42","California","2015-06-01","Cyberbullying",31,1
-"43","California","2015-07-01","Cyberbullying",31,1
-"44","California","2015-08-01","Cyberbullying",34,1
-"45","California","2015-09-01","Cyberbullying",49,1
-"46","California","2015-10-01","Cyberbullying",49,1
-"47","California","2015-11-01","Cyberbullying",65,1
-"48","California","2015-12-01","Cyberbullying",55,1
-"49","California","2016-01-01","Cyberbullying",32,1
-"50","California","2016-02-01","Cyberbullying",46,1
-"51","California","2016-03-01","Cyberbullying",66,1
-"52","California","2016-04-01","Cyberbullying",82,1
-"53","California","2016-05-01","Cyberbullying",75,1
-"54","California","2016-06-01","Cyberbullying",38,1
-"55","California","2016-07-01","Cyberbullying",19,1
-"56","California","2016-08-01","Cyberbullying",22,1
-"57","California","2016-09-01","Cyberbullying",52,1
-"58","California","2016-10-01","Cyberbullying",51,1
-"59","California","2016-11-01","Cyberbullying",52,1
-"60","California","2016-12-01","Cyberbullying",50,1
-"61","California","2017-01-01","Cyberbullying",30,1
-"62","California","2017-02-01","Cyberbullying",41,1
-"63","California","2017-03-01","Cyberbullying",58,1
-"64","California","2017-04-01","Cyberbullying",47,1
-"65","California","2017-05-01","Cyberbullying",55,1
-"66","California","2017-06-01","Cyberbullying",32,1
-"67","California","2017-07-01","Cyberbullying",13,1
-"68","California","2017-08-01","Cyberbullying",33,1
-"69","California","2017-09-01","Cyberbullying",53,1
-"70","California","2017-10-01","Cyberbullying",44,1
-"71","California","2017-11-01","Cyberbullying",44,1
-"72","California","2017-12-01","Cyberbullying",34,1
-"73","California","2018-01-01","Cyberbullying",34,1
-"74","California","2018-02-01","Cyberbullying",42,1
-"75","California","2018-03-01","Cyberbullying",50,1
-"76","California","2018-04-01","Cyberbullying",51,1
-"77","California","2018-05-01","Cyberbullying",53,1
-"78","California","2018-06-01","Cyberbullying",25,1
-"79","California","2018-07-01","Cyberbullying",21,1
-"80","California","2018-08-01","Cyberbullying",22,1
-"81","California","2018-09-01","Cyberbullying",39,1
-"82","California","2018-10-01","Cyberbullying",41,1
-"83","California","2018-11-01","Cyberbullying",26,1
-"84","California","2018-12-01","Cyberbullying",37,1
-"85","California","2019-01-01","Cyberbullying",26,1
-"86","California","2019-02-01","Cyberbullying",37,1
-"87","California","2019-03-01","Cyberbullying",44,1
-"88","California","2019-04-01","Cyberbullying",47,1
-"89","California","2019-05-01","Cyberbullying",43,1
-"90","California","2019-06-01","Cyberbullying",18,1
-"91","California","2019-07-01","Cyberbullying",17,1
-"92","California","2019-08-01","Cyberbullying",27,1
-"93","California","2019-09-01","Cyberbullying",28,1
-"94","California","2019-10-01","Cyberbullying",30,1
-"95","California","2019-11-01","Cyberbullying",36,1
-"96","California","2019-12-01","Cyberbullying",30,1
-"97","California","2020-01-01","Cyberbullying",30,1
-"98","California","2020-02-01","Cyberbullying",38,1
-"99","California","2020-03-01","Cyberbullying",30,1
-"100","California","2020-04-01","Cyberbullying",24,1
-"101","California","2020-05-01","Cyberbullying",25,1
-"102","California","2020-06-01","Cyberbullying",22,1
-"103","California","2020-07-01","Cyberbullying",15,1
-"104","California","2020-08-01","Cyberbullying",30,1
-"105","California","2020-09-01","Cyberbullying",27,1
-"106","California","2020-10-01","Cyberbullying",19,1
-"107","California","2020-11-01","Cyberbullying",19,1
-"108","California","2020-12-01","Cyberbullying",21,1
-"109","California","2021-01-01","Cyberbullying",10,1
-"110","California","2021-02-01","Cyberbullying",17,1
-"111","California","2021-03-01","Cyberbullying",16,1
-"112","Florida","2012-01-01","Cyberbullying",70,1
-"113","Florida","2012-02-01","Cyberbullying",57,1
-"114","Florida","2012-03-01","Cyberbullying",67,1
-"115","Florida","2012-04-01","Cyberbullying",46,1
-"116","Florida","2012-05-01","Cyberbullying",31,1
-"117","Florida","2012-06-01","Cyberbullying",33,1
-"118","Florida","2012-07-01","Cyberbullying",43,1
-"119","Florida","2012-08-01","Cyberbullying",29,1
-"120","Florida","2012-09-01","Cyberbullying",42,1
-"121","Florida","2012-10-01","Cyberbullying",55,1
-"122","Florida","2012-11-01","Cyberbullying",75,1
-"123","Florida","2012-12-01","Cyberbullying",30,1
-"124","Florida","2013-01-01","Cyberbullying",33,1
-"125","Florida","2013-02-01","Cyberbullying",36,1
-"126","Florida","2013-03-01","Cyberbullying",49,1
-"127","Florida","2013-04-01","Cyberbullying",50,1
-"128","Florida","2013-05-01","Cyberbullying",50,1
-"129","Florida","2013-06-01","Cyberbullying",28,1
-"130","Florida","2013-07-01","Cyberbullying",22,1
-"131","Florida","2013-08-01","Cyberbullying",32,1
-"132","Florida","2013-09-01","Cyberbullying",68,1
-"133","Florida","2013-10-01","Cyberbullying",85,1
-"134","Florida","2013-11-01","Cyberbullying",65,1
-"135","Florida","2013-12-01","Cyberbullying",30,1
-"136","Florida","2014-01-01","Cyberbullying",20,1
-"137","Florida","2014-02-01","Cyberbullying",42,1
-"138","Florida","2014-03-01","Cyberbullying",40,1
-"139","Florida","2014-04-01","Cyberbullying",46,1
-"140","Florida","2014-05-01","Cyberbullying",40,1
-"141","Florida","2014-06-01","Cyberbullying",30,1
-"142","Florida","2014-07-01","Cyberbullying",9,1
-"143","Florida","2014-08-01","Cyberbullying",26,1
-"144","Florida","2014-09-01","Cyberbullying",52,1
-"145","Florida","2014-10-01","Cyberbullying",65,1
-"146","Florida","2014-11-01","Cyberbullying",68,1
-"147","Florida","2014-12-01","Cyberbullying",34,1
-"148","Florida","2015-01-01","Cyberbullying",61,1
-"149","Florida","2015-02-01","Cyberbullying",71,1
-"150","Florida","2015-03-01","Cyberbullying",59,1
-"151","Florida","2015-04-01","Cyberbullying",62,1
-"152","Florida","2015-05-01","Cyberbullying",47,1
-"153","Florida","2015-06-01","Cyberbullying",31,1
-"154","Florida","2015-07-01","Cyberbullying",22,1
-"155","Florida","2015-08-01","Cyberbullying",22,1
-"156","Florida","2015-09-01","Cyberbullying",55,1
-"157","Florida","2015-10-01","Cyberbullying",86,1
-"158","Florida","2015-11-01","Cyberbullying",66,1
-"159","Florida","2015-12-01","Cyberbullying",24,1
-"160","Florida","2016-01-01","Cyberbullying",32,1
-"161","Florida","2016-02-01","Cyberbullying",42,1
-"162","Florida","2016-03-01","Cyberbullying",33,1
-"163","Florida","2016-04-01","Cyberbullying",52,1
-"164","Florida","2016-05-01","Cyberbullying",42,1
-"165","Florida","2016-06-01","Cyberbullying",31,1
-"166","Florida","2016-07-01","Cyberbullying",28,1
-"167","Florida","2016-08-01","Cyberbullying",23,1
-"168","Florida","2016-09-01","Cyberbullying",37,1
-"169","Florida","2016-10-01","Cyberbullying",50,1
-"170","Florida","2016-11-01","Cyberbullying",28,1
-"171","Florida","2016-12-01","Cyberbullying",45,1
-"172","Florida","2017-01-01","Cyberbullying",26,1
-"173","Florida","2017-02-01","Cyberbullying",39,1
-"174","Florida","2017-03-01","Cyberbullying",40,1
-"175","Florida","2017-04-01","Cyberbullying",40,1
-"176","Florida","2017-05-01","Cyberbullying",35,1
-"177","Florida","2017-06-01","Cyberbullying",26,1
-"178","Florida","2017-07-01","Cyberbullying",11,1
-"179","Florida","2017-08-01","Cyberbullying",31,1
-"180","Florida","2017-09-01","Cyberbullying",32,1
-"181","Florida","2017-10-01","Cyberbullying",55,1
-"182","Florida","2017-11-01","Cyberbullying",48,1
-"183","Florida","2017-12-01","Cyberbullying",28,1
-"184","Florida","2018-01-01","Cyberbullying",31,1
-"185","Florida","2018-02-01","Cyberbullying",35,1
-"186","Florida","2018-03-01","Cyberbullying",37,1
-"187","Florida","2018-04-01","Cyberbullying",40,1
-"188","Florida","2018-05-01","Cyberbullying",28,1
-"189","Florida","2018-06-01","Cyberbullying",12,1
-"190","Florida","2018-07-01","Cyberbullying",12,1
-"191","Florida","2018-08-01","Cyberbullying",19,1
-"192","Florida","2018-09-01","Cyberbullying",39,1
-"193","Florida","2018-10-01","Cyberbullying",38,1
-"194","Florida","2018-11-01","Cyberbullying",26,1
-"195","Florida","2018-12-01","Cyberbullying",19,1
-"196","Florida","2019-01-01","Cyberbullying",29,1
-"197","Florida","2019-02-01","Cyberbullying",21,1
-"198","Florida","2019-03-01","Cyberbullying",23,1
-"199","Florida","2019-04-01","Cyberbullying",26,1
-"200","Florida","2019-05-01","Cyberbullying",22,1
-"201","Florida","2019-06-01","Cyberbullying",11,1
-"202","Florida","2019-07-01","Cyberbullying",15,1
-"203","Florida","2019-08-01","Cyberbullying",26,1
-"204","Florida","2019-09-01","Cyberbullying",39,1
-"205","Florida","2019-10-01","Cyberbullying",34,1
-"206","Florida","2019-11-01","Cyberbullying",42,1
-"207","Florida","2019-12-01","Cyberbullying",21,1
-"208","Florida","2020-01-01","Cyberbullying",30,1
-"209","Florida","2020-02-01","Cyberbullying",33,1
-"210","Florida","2020-03-01","Cyberbullying",25,1
-"211","Florida","2020-04-01","Cyberbullying",21,1
-"212","Florida","2020-05-01","Cyberbullying",15,1
-"213","Florida","2020-06-01","Cyberbullying",13,1
-"214","Florida","2020-07-01","Cyberbullying",17,1
-"215","Florida","2020-08-01","Cyberbullying",25,1
-"216","Florida","2020-09-01","Cyberbullying",39,1
-"217","Florida","2020-10-01","Cyberbullying",31,1
-"218","Florida","2020-11-01","Cyberbullying",19,1
-"219","Florida","2020-12-01","Cyberbullying",12,1
-"220","Florida","2021-01-01","Cyberbullying",33,1
-"221","Florida","2021-02-01","Cyberbullying",25,1
-"222","Florida","2021-03-01","Cyberbullying",30,1
-"223","Hawaii","2012-01-01","Cyberbullying",36,3.05741252938509
-"224","Hawaii","2012-02-01","Cyberbullying",100,3.05741252938509
-"225","Hawaii","2012-03-01","Cyberbullying",12,3.05741252938509
-"226","Hawaii","2012-04-01","Cyberbullying",49,3.05741252938509
-"227","Hawaii","2012-05-01","Cyberbullying",36,3.05741252938509
-"228","Hawaii","2012-06-01","Cyberbullying",12,3.05741252938509
-"229","Hawaii","2012-07-01","Cyberbullying",11,3.05741252938509
-"230","Hawaii","2012-08-01","Cyberbullying",20,3.05741252938509
-"231","Hawaii","2012-09-01","Cyberbullying",20,3.05741252938509
-"232","Hawaii","2012-10-01","Cyberbullying",77,3.05741252938509
-"233","Hawaii","2012-11-01","Cyberbullying",11,3.05741252938509
-"234","Hawaii","2012-12-01","Cyberbullying",33,3.05741252938509
-"235","Hawaii","2013-01-01","Cyberbullying",20,3.05741252938509
-"236","Hawaii","2013-02-01","Cyberbullying",22,3.05741252938509
-"237","Hawaii","2013-03-01","Cyberbullying",10,3.05741252938509
-"238","Hawaii","2013-04-01","Cyberbullying",51,3.05741252938509
-"239","Hawaii","2013-05-01","Cyberbullying",9,3.05741252938509
-"240","Hawaii","2013-06-01","Cyberbullying",31,3.05741252938509
-"241","Hawaii","2013-07-01","Cyberbullying",18,3.05741252938509
-"242","Hawaii","2013-08-01","Cyberbullying",9,3.05741252938509
-"243","Hawaii","2013-09-01","Cyberbullying",19,3.05741252938509
-"244","Hawaii","2013-10-01","Cyberbullying",45,3.05741252938509
-"245","Hawaii","2013-11-01","Cyberbullying",61,3.05741252938509
-"246","Hawaii","2013-12-01","Cyberbullying",55,3.05741252938509
-"247","Hawaii","2014-01-01","Cyberbullying",16,3.05741252938509
-"248","Hawaii","2014-02-01","Cyberbullying",17,3.05741252938509
-"249","Hawaii","2014-03-01","Cyberbullying",36,3.05741252938509
-"250","Hawaii","2014-04-01","Cyberbullying",28,3.05741252938509
-"251","Hawaii","2014-05-01","Cyberbullying",37,3.05741252938509
-"252","Hawaii","2014-06-01","Cyberbullying",0,3.05741252938509
-"253","Hawaii","2014-07-01","Cyberbullying",30,3.05741252938509
-"254","Hawaii","2014-08-01","Cyberbullying",5,3.05741252938509
-"255","Hawaii","2014-09-01","Cyberbullying",15,3.05741252938509
-"256","Hawaii","2014-10-01","Cyberbullying",25,3.05741252938509
-"257","Hawaii","2014-11-01","Cyberbullying",20,3.05741252938509
-"258","Hawaii","2014-12-01","Cyberbullying",20,3.05741252938509
-"259","Hawaii","2015-01-01","Cyberbullying",25,3.05741252938509
-"260","Hawaii","2015-02-01","Cyberbullying",46,3.05741252938509
-"261","Hawaii","2015-03-01","Cyberbullying",33,3.05741252938509
-"262","Hawaii","2015-04-01","Cyberbullying",47,3.05741252938509
-"263","Hawaii","2015-05-01","Cyberbullying",0,3.05741252938509
-"264","Hawaii","2015-06-01","Cyberbullying",9,3.05741252938509
-"265","Hawaii","2015-07-01","Cyberbullying",31,3.05741252938509
-"266","Hawaii","2015-08-01","Cyberbullying",40,3.05741252938509
-"267","Hawaii","2015-09-01","Cyberbullying",40,3.05741252938509
-"268","Hawaii","2015-10-01","Cyberbullying",20,3.05741252938509
-"269","Hawaii","2015-11-01","Cyberbullying",41,3.05741252938509
-"270","Hawaii","2015-12-01","Cyberbullying",40,3.05741252938509
-"271","Hawaii","2016-01-01","Cyberbullying",8,3.05741252938509
-"272","Hawaii","2016-02-01","Cyberbullying",41,3.05741252938509
-"273","Hawaii","2016-03-01","Cyberbullying",31,3.05741252938509
-"274","Hawaii","2016-04-01","Cyberbullying",16,3.05741252938509
-"275","Hawaii","2016-05-01","Cyberbullying",8,3.05741252938509
-"276","Hawaii","2016-06-01","Cyberbullying",17,3.05741252938509
-"277","Hawaii","2016-07-01","Cyberbullying",0,3.05741252938509
-"278","Hawaii","2016-08-01","Cyberbullying",16,3.05741252938509
-"279","Hawaii","2016-09-01","Cyberbullying",39,3.05741252938509
-"280","Hawaii","2016-10-01","Cyberbullying",8,3.05741252938509
-"281","Hawaii","2016-11-01","Cyberbullying",15,3.05741252938509
-"282","Hawaii","2016-12-01","Cyberbullying",21,3.05741252938509
-"283","Hawaii","2017-01-01","Cyberbullying",21,3.05741252938509
-"284","Hawaii","2017-02-01","Cyberbullying",15,3.05741252938509
-"285","Hawaii","2017-03-01","Cyberbullying",20,3.05741252938509
-"286","Hawaii","2017-04-01","Cyberbullying",35,3.05741252938509
-"287","Hawaii","2017-05-01","Cyberbullying",51,3.05741252938509
-"288","Hawaii","2017-06-01","Cyberbullying",16,3.05741252938509
-"289","Hawaii","2017-07-01","Cyberbullying",0,3.05741252938509
-"290","Hawaii","2017-08-01","Cyberbullying",0,3.05741252938509
-"291","Hawaii","2017-09-01","Cyberbullying",15,3.05741252938509
-"292","Hawaii","2017-10-01","Cyberbullying",15,3.05741252938509
-"293","Hawaii","2017-11-01","Cyberbullying",15,3.05741252938509
-"294","Hawaii","2017-12-01","Cyberbullying",22,3.05741252938509
-"295","Hawaii","2018-01-01","Cyberbullying",21,3.05741252938509
-"296","Hawaii","2018-02-01","Cyberbullying",15,3.05741252938509
-"297","Hawaii","2018-03-01","Cyberbullying",21,3.05741252938509
-"298","Hawaii","2018-04-01","Cyberbullying",35,3.05741252938509
-"299","Hawaii","2018-05-01","Cyberbullying",28,3.05741252938509
-"300","Hawaii","2018-06-01","Cyberbullying",0,3.05741252938509
-"301","Hawaii","2018-07-01","Cyberbullying",15,3.05741252938509
-"302","Hawaii","2018-08-01","Cyberbullying",21,3.05741252938509
-"303","Hawaii","2018-09-01","Cyberbullying",15,3.05741252938509
-"304","Hawaii","2018-10-01","Cyberbullying",45,3.05741252938509
-"305","Hawaii","2018-11-01","Cyberbullying",8,3.05741252938509
-"306","Hawaii","2018-12-01","Cyberbullying",23,3.05741252938509
-"307","Hawaii","2019-01-01","Cyberbullying",21,3.05741252938509
-"308","Hawaii","2019-02-01","Cyberbullying",15,3.05741252938509
-"309","Hawaii","2019-03-01","Cyberbullying",14,3.05741252938509
-"310","Hawaii","2019-04-01","Cyberbullying",22,3.05741252938509
-"311","Hawaii","2019-05-01","Cyberbullying",7,3.05741252938509
-"312","Hawaii","2019-06-01","Cyberbullying",8,3.05741252938509
-"313","Hawaii","2019-07-01","Cyberbullying",0,3.05741252938509
-"314","Hawaii","2019-08-01","Cyberbullying",0,3.05741252938509
-"315","Hawaii","2019-09-01","Cyberbullying",15,3.05741252938509
-"316","Hawaii","2019-10-01","Cyberbullying",28,3.05741252938509
-"317","Hawaii","2019-11-01","Cyberbullying",0,3.05741252938509
-"318","Hawaii","2019-12-01","Cyberbullying",7,3.05741252938509
-"319","Hawaii","2020-01-01","Cyberbullying",7,3.05741252938509
-"320","Hawaii","2020-02-01","Cyberbullying",14,3.05741252938509
-"321","Hawaii","2020-03-01","Cyberbullying",6,3.05741252938509
-"322","Hawaii","2020-04-01","Cyberbullying",6,3.05741252938509
-"323","Hawaii","2020-05-01","Cyberbullying",12,3.05741252938509
-"324","Hawaii","2020-06-01","Cyberbullying",14,3.05741252938509
-"325","Hawaii","2020-07-01","Cyberbullying",7,3.05741252938509
-"326","Hawaii","2020-08-01","Cyberbullying",7,3.05741252938509
-"327","Hawaii","2020-09-01","Cyberbullying",6,3.05741252938509
-"328","Hawaii","2020-10-01","Cyberbullying",15,3.05741252938509
-"329","Hawaii","2020-11-01","Cyberbullying",22,3.05741252938509
-"330","Hawaii","2020-12-01","Cyberbullying",8,3.05741252938509
-"331","Hawaii","2021-01-01","Cyberbullying",7,3.05741252938509
-"332","Hawaii","2021-02-01","Cyberbullying",0,3.05741252938509
-"333","Hawaii","2021-03-01","Cyberbullying",8,3.05741252938509
-"334","Illinois","2012-01-01","Cyberbullying",37,1.30152675017661
-"335","Illinois","2012-02-01","Cyberbullying",90,1.30152675017661
-"336","Illinois","2012-03-01","Cyberbullying",62,1.30152675017661
-"337","Illinois","2012-04-01","Cyberbullying",46,1.30152675017661
-"338","Illinois","2012-05-01","Cyberbullying",40,1.30152675017661
-"339","Illinois","2012-06-01","Cyberbullying",15,1.30152675017661
-"340","Illinois","2012-07-01","Cyberbullying",14,1.30152675017661
-"341","Illinois","2012-08-01","Cyberbullying",18,1.30152675017661
-"342","Illinois","2012-09-01","Cyberbullying",28,1.30152675017661
-"343","Illinois","2012-10-01","Cyberbullying",62,1.30152675017661
-"344","Illinois","2012-11-01","Cyberbullying",45,1.30152675017661
-"345","Illinois","2012-12-01","Cyberbullying",27,1.30152675017661
-"346","Illinois","2013-01-01","Cyberbullying",38,1.30152675017661
-"347","Illinois","2013-02-01","Cyberbullying",43,1.30152675017661
-"348","Illinois","2013-03-01","Cyberbullying",32,1.30152675017661
-"349","Illinois","2013-04-01","Cyberbullying",50,1.30152675017661
-"350","Illinois","2013-05-01","Cyberbullying",52,1.30152675017661
-"351","Illinois","2013-06-01","Cyberbullying",21,1.30152675017661
-"352","Illinois","2013-07-01","Cyberbullying",8,1.30152675017661
-"353","Illinois","2013-08-01","Cyberbullying",26,1.30152675017661
-"354","Illinois","2013-09-01","Cyberbullying",49,1.30152675017661
-"355","Illinois","2013-10-01","Cyberbullying",90,1.30152675017661
-"356","Illinois","2013-11-01","Cyberbullying",58,1.30152675017661
-"357","Illinois","2013-12-01","Cyberbullying",53,1.30152675017661
-"358","Illinois","2014-01-01","Cyberbullying",33,1.30152675017661
-"359","Illinois","2014-02-01","Cyberbullying",38,1.30152675017661
-"360","Illinois","2014-03-01","Cyberbullying",60,1.30152675017661
-"361","Illinois","2014-04-01","Cyberbullying",62,1.30152675017661
-"362","Illinois","2014-05-01","Cyberbullying",65,1.30152675017661
-"363","Illinois","2014-06-01","Cyberbullying",22,1.30152675017661
-"364","Illinois","2014-07-01","Cyberbullying",28,1.30152675017661
-"365","Illinois","2014-08-01","Cyberbullying",18,1.30152675017661
-"366","Illinois","2014-09-01","Cyberbullying",50,1.30152675017661
-"367","Illinois","2014-10-01","Cyberbullying",75,1.30152675017661
-"368","Illinois","2014-11-01","Cyberbullying",67,1.30152675017661
-"369","Illinois","2014-12-01","Cyberbullying",48,1.30152675017661
-"370","Illinois","2015-01-01","Cyberbullying",60,1.30152675017661
-"371","Illinois","2015-02-01","Cyberbullying",95,1.30152675017661
-"372","Illinois","2015-03-01","Cyberbullying",83,1.30152675017661
-"373","Illinois","2015-04-01","Cyberbullying",100,1.30152675017661
-"374","Illinois","2015-05-01","Cyberbullying",47,1.30152675017661
-"375","Illinois","2015-06-01","Cyberbullying",12,1.30152675017661
-"376","Illinois","2015-07-01","Cyberbullying",12,1.30152675017661
-"377","Illinois","2015-08-01","Cyberbullying",17,1.30152675017661
-"378","Illinois","2015-09-01","Cyberbullying",45,1.30152675017661
-"379","Illinois","2015-10-01","Cyberbullying",64,1.30152675017661
-"380","Illinois","2015-11-01","Cyberbullying",42,1.30152675017661
-"381","Illinois","2015-12-01","Cyberbullying",55,1.30152675017661
-"382","Illinois","2016-01-01","Cyberbullying",29,1.30152675017661
-"383","Illinois","2016-02-01","Cyberbullying",64,1.30152675017661
-"384","Illinois","2016-03-01","Cyberbullying",43,1.30152675017661
-"385","Illinois","2016-04-01","Cyberbullying",59,1.30152675017661
-"386","Illinois","2016-05-01","Cyberbullying",35,1.30152675017661
-"387","Illinois","2016-06-01","Cyberbullying",13,1.30152675017661
-"388","Illinois","2016-07-01","Cyberbullying",13,1.30152675017661
-"389","Illinois","2016-08-01","Cyberbullying",21,1.30152675017661
-"390","Illinois","2016-09-01","Cyberbullying",47,1.30152675017661
-"391","Illinois","2016-10-01","Cyberbullying",56,1.30152675017661
-"392","Illinois","2016-11-01","Cyberbullying",46,1.30152675017661
-"393","Illinois","2016-12-01","Cyberbullying",40,1.30152675017661
-"394","Illinois","2017-01-01","Cyberbullying",39,1.30152675017661
-"395","Illinois","2017-02-01","Cyberbullying",23,1.30152675017661
-"396","Illinois","2017-03-01","Cyberbullying",51,1.30152675017661
-"397","Illinois","2017-04-01","Cyberbullying",48,1.30152675017661
-"398","Illinois","2017-05-01","Cyberbullying",37,1.30152675017661
-"399","Illinois","2017-06-01","Cyberbullying",27,1.30152675017661
-"400","Illinois","2017-07-01","Cyberbullying",17,1.30152675017661
-"401","Illinois","2017-08-01","Cyberbullying",20,1.30152675017661
-"402","Illinois","2017-09-01","Cyberbullying",41,1.30152675017661
-"403","Illinois","2017-10-01","Cyberbullying",47,1.30152675017661
-"404","Illinois","2017-11-01","Cyberbullying",42,1.30152675017661
-"405","Illinois","2017-12-01","Cyberbullying",22,1.30152675017661
-"406","Illinois","2018-01-01","Cyberbullying",32,1.30152675017661
-"407","Illinois","2018-02-01","Cyberbullying",44,1.30152675017661
-"408","Illinois","2018-03-01","Cyberbullying",36,1.30152675017661
-"409","Illinois","2018-04-01","Cyberbullying",44,1.30152675017661
-"410","Illinois","2018-05-01","Cyberbullying",37,1.30152675017661
-"411","Illinois","2018-06-01","Cyberbullying",15,1.30152675017661
-"412","Illinois","2018-07-01","Cyberbullying",6,1.30152675017661
-"413","Illinois","2018-08-01","Cyberbullying",13,1.30152675017661
-"414","Illinois","2018-09-01","Cyberbullying",36,1.30152675017661
-"415","Illinois","2018-10-01","Cyberbullying",50,1.30152675017661
-"416","Illinois","2018-11-01","Cyberbullying",39,1.30152675017661
-"417","Illinois","2018-12-01","Cyberbullying",37,1.30152675017661
-"418","Illinois","2019-01-01","Cyberbullying",33,1.30152675017661
-"419","Illinois","2019-02-01","Cyberbullying",41,1.30152675017661
-"420","Illinois","2019-03-01","Cyberbullying",43,1.30152675017661
-"421","Illinois","2019-04-01","Cyberbullying",29,1.30152675017661
-"422","Illinois","2019-05-01","Cyberbullying",38,1.30152675017661
-"423","Illinois","2019-06-01","Cyberbullying",14,1.30152675017661
-"424","Illinois","2019-07-01","Cyberbullying",14,1.30152675017661
-"425","Illinois","2019-08-01","Cyberbullying",11,1.30152675017661
-"426","Illinois","2019-09-01","Cyberbullying",36,1.30152675017661
-"427","Illinois","2019-10-01","Cyberbullying",26,1.30152675017661
-"428","Illinois","2019-11-01","Cyberbullying",28,1.30152675017661
-"429","Illinois","2019-12-01","Cyberbullying",13,1.30152675017661
-"430","Illinois","2020-01-01","Cyberbullying",39,1.30152675017661
-"431","Illinois","2020-02-01","Cyberbullying",28,1.30152675017661
-"432","Illinois","2020-03-01","Cyberbullying",21,1.30152675017661
-"433","Illinois","2020-04-01","Cyberbullying",30,1.30152675017661
-"434","Illinois","2020-05-01","Cyberbullying",27,1.30152675017661
-"435","Illinois","2020-06-01","Cyberbullying",15,1.30152675017661
-"436","Illinois","2020-07-01","Cyberbullying",16,1.30152675017661
-"437","Illinois","2020-08-01","Cyberbullying",24,1.30152675017661
-"438","Illinois","2020-09-01","Cyberbullying",25,1.30152675017661
-"439","Illinois","2020-10-01","Cyberbullying",18,1.30152675017661
-"440","Illinois","2020-11-01","Cyberbullying",11,1.30152675017661
-"441","Illinois","2020-12-01","Cyberbullying",20,1.30152675017661
-"442","Illinois","2021-01-01","Cyberbullying",8,1.30152675017661
-"443","Illinois","2021-02-01","Cyberbullying",14,1.30152675017661
-"444","Illinois","2021-03-01","Cyberbullying",12,1.30152675017661
-"445","Massachusetts","2012-01-01","Cyberbullying",45,1.07152989648646
-"446","Massachusetts","2012-02-01","Cyberbullying",36,1.07152989648646
-"447","Massachusetts","2012-03-01","Cyberbullying",32,1.07152989648646
-"448","Massachusetts","2012-04-01","Cyberbullying",61,1.07152989648646
-"449","Massachusetts","2012-05-01","Cyberbullying",67,1.07152989648646
-"450","Massachusetts","2012-06-01","Cyberbullying",18,1.07152989648646
-"451","Massachusetts","2012-07-01","Cyberbullying",17,1.07152989648646
-"452","Massachusetts","2012-08-01","Cyberbullying",8,1.07152989648646
-"453","Massachusetts","2012-09-01","Cyberbullying",23,1.07152989648646
-"454","Massachusetts","2012-10-01","Cyberbullying",61,1.07152989648646
-"455","Massachusetts","2012-11-01","Cyberbullying",39,1.07152989648646
-"456","Massachusetts","2012-12-01","Cyberbullying",59,1.07152989648646
-"457","Massachusetts","2013-01-01","Cyberbullying",25,1.07152989648646
-"458","Massachusetts","2013-02-01","Cyberbullying",39,1.07152989648646
-"459","Massachusetts","2013-03-01","Cyberbullying",48,1.07152989648646
-"460","Massachusetts","2013-04-01","Cyberbullying",55,1.07152989648646
-"461","Massachusetts","2013-05-01","Cyberbullying",35,1.07152989648646
-"462","Massachusetts","2013-06-01","Cyberbullying",35,1.07152989648646
-"463","Massachusetts","2013-07-01","Cyberbullying",8,1.07152989648646
-"464","Massachusetts","2013-08-01","Cyberbullying",15,1.07152989648646
-"465","Massachusetts","2013-09-01","Cyberbullying",53,1.07152989648646
-"466","Massachusetts","2013-10-01","Cyberbullying",93,1.07152989648646
-"467","Massachusetts","2013-11-01","Cyberbullying",46,1.07152989648646
-"468","Massachusetts","2013-12-01","Cyberbullying",46,1.07152989648646
-"469","Massachusetts","2014-01-01","Cyberbullying",41,1.07152989648646
-"470","Massachusetts","2014-02-01","Cyberbullying",68,1.07152989648646
-"471","Massachusetts","2014-03-01","Cyberbullying",50,1.07152989648646
-"472","Massachusetts","2014-04-01","Cyberbullying",39,1.07152989648646
-"473","Massachusetts","2014-05-01","Cyberbullying",45,1.07152989648646
-"474","Massachusetts","2014-06-01","Cyberbullying",33,1.07152989648646
-"475","Massachusetts","2014-07-01","Cyberbullying",27,1.07152989648646
-"476","Massachusetts","2014-08-01","Cyberbullying",9,1.07152989648646
-"477","Massachusetts","2014-09-01","Cyberbullying",43,1.07152989648646
-"478","Massachusetts","2014-10-01","Cyberbullying",66,1.07152989648646
-"479","Massachusetts","2014-11-01","Cyberbullying",53,1.07152989648646
-"480","Massachusetts","2014-12-01","Cyberbullying",48,1.07152989648646
-"481","Massachusetts","2015-01-01","Cyberbullying",35,1.07152989648646
-"482","Massachusetts","2015-02-01","Cyberbullying",37,1.07152989648646
-"483","Massachusetts","2015-03-01","Cyberbullying",78,1.07152989648646
-"484","Massachusetts","2015-04-01","Cyberbullying",61,1.07152989648646
-"485","Massachusetts","2015-05-01","Cyberbullying",55,1.07152989648646
-"486","Massachusetts","2015-06-01","Cyberbullying",33,1.07152989648646
-"487","Massachusetts","2015-07-01","Cyberbullying",30,1.07152989648646
-"488","Massachusetts","2015-08-01","Cyberbullying",5,1.07152989648646
-"489","Massachusetts","2015-09-01","Cyberbullying",43,1.07152989648646
-"490","Massachusetts","2015-10-01","Cyberbullying",54,1.07152989648646
-"491","Massachusetts","2015-11-01","Cyberbullying",70,1.07152989648646
-"492","Massachusetts","2015-12-01","Cyberbullying",100,1.07152989648646
-"493","Massachusetts","2016-01-01","Cyberbullying",31,1.07152989648646
-"494","Massachusetts","2016-02-01","Cyberbullying",51,1.07152989648646
-"495","Massachusetts","2016-03-01","Cyberbullying",69,1.07152989648646
-"496","Massachusetts","2016-04-01","Cyberbullying",40,1.07152989648646
-"497","Massachusetts","2016-05-01","Cyberbullying",32,1.07152989648646
-"498","Massachusetts","2016-06-01","Cyberbullying",31,1.07152989648646
-"499","Massachusetts","2016-07-01","Cyberbullying",22,1.07152989648646
-"500","Massachusetts","2016-08-01","Cyberbullying",10,1.07152989648646
-"501","Massachusetts","2016-09-01","Cyberbullying",42,1.07152989648646
-"502","Massachusetts","2016-10-01","Cyberbullying",37,1.07152989648646
-"503","Massachusetts","2016-11-01","Cyberbullying",37,1.07152989648646
-"504","Massachusetts","2016-12-01","Cyberbullying",70,1.07152989648646
-"505","Massachusetts","2017-01-01","Cyberbullying",36,1.07152989648646
-"506","Massachusetts","2017-02-01","Cyberbullying",40,1.07152989648646
-"507","Massachusetts","2017-03-01","Cyberbullying",66,1.07152989648646
-"508","Massachusetts","2017-04-01","Cyberbullying",23,1.07152989648646
-"509","Massachusetts","2017-05-01","Cyberbullying",43,1.07152989648646
-"510","Massachusetts","2017-06-01","Cyberbullying",29,1.07152989648646
-"511","Massachusetts","2017-07-01","Cyberbullying",22,1.07152989648646
-"512","Massachusetts","2017-08-01","Cyberbullying",28,1.07152989648646
-"513","Massachusetts","2017-09-01","Cyberbullying",40,1.07152989648646
-"514","Massachusetts","2017-10-01","Cyberbullying",36,1.07152989648646
-"515","Massachusetts","2017-11-01","Cyberbullying",50,1.07152989648646
-"516","Massachusetts","2017-12-01","Cyberbullying",58,1.07152989648646
-"517","Massachusetts","2018-01-01","Cyberbullying",39,1.07152989648646
-"518","Massachusetts","2018-02-01","Cyberbullying",75,1.07152989648646
-"519","Massachusetts","2018-03-01","Cyberbullying",48,1.07152989648646
-"520","Massachusetts","2018-04-01","Cyberbullying",20,1.07152989648646
-"521","Massachusetts","2018-05-01","Cyberbullying",13,1.07152989648646
-"522","Massachusetts","2018-06-01","Cyberbullying",31,1.07152989648646
-"523","Massachusetts","2018-07-01","Cyberbullying",14,1.07152989648646
-"524","Massachusetts","2018-08-01","Cyberbullying",21,1.07152989648646
-"525","Massachusetts","2018-09-01","Cyberbullying",30,1.07152989648646
-"526","Massachusetts","2018-10-01","Cyberbullying",29,1.07152989648646
-"527","Massachusetts","2018-11-01","Cyberbullying",37,1.07152989648646
-"528","Massachusetts","2018-12-01","Cyberbullying",21,1.07152989648646
-"529","Massachusetts","2019-01-01","Cyberbullying",23,1.07152989648646
-"530","Massachusetts","2019-02-01","Cyberbullying",32,1.07152989648646
-"531","Massachusetts","2019-03-01","Cyberbullying",26,1.07152989648646
-"532","Massachusetts","2019-04-01","Cyberbullying",40,1.07152989648646
-"533","Massachusetts","2019-05-01","Cyberbullying",17,1.07152989648646
-"534","Massachusetts","2019-06-01","Cyberbullying",18,1.07152989648646
-"535","Massachusetts","2019-07-01","Cyberbullying",10,1.07152989648646
-"536","Massachusetts","2019-08-01","Cyberbullying",10,1.07152989648646
-"537","Massachusetts","2019-09-01","Cyberbullying",29,1.07152989648646
-"538","Massachusetts","2019-10-01","Cyberbullying",33,1.07152989648646
-"539","Massachusetts","2019-11-01","Cyberbullying",13,1.07152989648646
-"540","Massachusetts","2019-12-01","Cyberbullying",16,1.07152989648646
-"541","Massachusetts","2020-01-01","Cyberbullying",12,1.07152989648646
-"542","Massachusetts","2020-02-01","Cyberbullying",19,1.07152989648646
-"543","Massachusetts","2020-03-01","Cyberbullying",17,1.07152989648646
-"544","Massachusetts","2020-04-01","Cyberbullying",16,1.07152989648646
-"545","Massachusetts","2020-05-01","Cyberbullying",16,1.07152989648646
-"546","Massachusetts","2020-06-01","Cyberbullying",20,1.07152989648646
-"547","Massachusetts","2020-07-01","Cyberbullying",27,1.07152989648646
-"548","Massachusetts","2020-08-01","Cyberbullying",18,1.07152989648646
-"549","Massachusetts","2020-09-01","Cyberbullying",29,1.07152989648646
-"550","Massachusetts","2020-10-01","Cyberbullying",13,1.07152989648646
-"551","Massachusetts","2020-11-01","Cyberbullying",20,1.07152989648646
-"552","Massachusetts","2020-12-01","Cyberbullying",3,1.07152989648646
-"553","Massachusetts","2021-01-01","Cyberbullying",10,1.07152989648646
-"554","Massachusetts","2021-02-01","Cyberbullying",22,1.07152989648646
-"555","Massachusetts","2021-03-01","Cyberbullying",18,1.07152989648646
-"556","New Jersey","2012-01-01","Cyberbullying",52,1.62427616977438
-"557","New Jersey","2012-02-01","Cyberbullying",28,1.62427616977438
-"558","New Jersey","2012-03-01","Cyberbullying",58,1.62427616977438
-"559","New Jersey","2012-04-01","Cyberbullying",46,1.62427616977438
-"560","New Jersey","2012-05-01","Cyberbullying",56,1.62427616977438
-"561","New Jersey","2012-06-01","Cyberbullying",37,1.62427616977438
-"562","New Jersey","2012-07-01","Cyberbullying",7,1.62427616977438
-"563","New Jersey","2012-08-01","Cyberbullying",10,1.62427616977438
-"564","New Jersey","2012-09-01","Cyberbullying",30,1.62427616977438
-"565","New Jersey","2012-10-01","Cyberbullying",57,1.62427616977438
-"566","New Jersey","2012-11-01","Cyberbullying",55,1.62427616977438
-"567","New Jersey","2012-12-01","Cyberbullying",50,1.62427616977438
-"568","New Jersey","2013-01-01","Cyberbullying",44,1.62427616977438
-"569","New Jersey","2013-02-01","Cyberbullying",41,1.62427616977438
-"570","New Jersey","2013-03-01","Cyberbullying",66,1.62427616977438
-"571","New Jersey","2013-04-01","Cyberbullying",71,1.62427616977438
-"572","New Jersey","2013-05-01","Cyberbullying",39,1.62427616977438
-"573","New Jersey","2013-06-01","Cyberbullying",44,1.62427616977438
-"574","New Jersey","2013-07-01","Cyberbullying",17,1.62427616977438
-"575","New Jersey","2013-08-01","Cyberbullying",5,1.62427616977438
-"576","New Jersey","2013-09-01","Cyberbullying",46,1.62427616977438
-"577","New Jersey","2013-10-01","Cyberbullying",90,1.62427616977438
-"578","New Jersey","2013-11-01","Cyberbullying",67,1.62427616977438
-"579","New Jersey","2013-12-01","Cyberbullying",57,1.62427616977438
-"580","New Jersey","2014-01-01","Cyberbullying",47,1.62427616977438
-"581","New Jersey","2014-02-01","Cyberbullying",23,1.62427616977438
-"582","New Jersey","2014-03-01","Cyberbullying",63,1.62427616977438
-"583","New Jersey","2014-04-01","Cyberbullying",28,1.62427616977438
-"584","New Jersey","2014-05-01","Cyberbullying",61,1.62427616977438
-"585","New Jersey","2014-06-01","Cyberbullying",49,1.62427616977438
-"586","New Jersey","2014-07-01","Cyberbullying",11,1.62427616977438
-"587","New Jersey","2014-08-01","Cyberbullying",26,1.62427616977438
-"588","New Jersey","2014-09-01","Cyberbullying",62,1.62427616977438
-"589","New Jersey","2014-10-01","Cyberbullying",95,1.62427616977438
-"590","New Jersey","2014-11-01","Cyberbullying",63,1.62427616977438
-"591","New Jersey","2014-12-01","Cyberbullying",55,1.62427616977438
-"592","New Jersey","2015-01-01","Cyberbullying",54,1.62427616977438
-"593","New Jersey","2015-02-01","Cyberbullying",54,1.62427616977438
-"594","New Jersey","2015-03-01","Cyberbullying",60,1.62427616977438
-"595","New Jersey","2015-04-01","Cyberbullying",61,1.62427616977438
-"596","New Jersey","2015-05-01","Cyberbullying",49,1.62427616977438
-"597","New Jersey","2015-06-01","Cyberbullying",34,1.62427616977438
-"598","New Jersey","2015-07-01","Cyberbullying",17,1.62427616977438
-"599","New Jersey","2015-08-01","Cyberbullying",6,1.62427616977438
-"600","New Jersey","2015-09-01","Cyberbullying",52,1.62427616977438
-"601","New Jersey","2015-10-01","Cyberbullying",100,1.62427616977438
-"602","New Jersey","2015-11-01","Cyberbullying",72,1.62427616977438
-"603","New Jersey","2015-12-01","Cyberbullying",47,1.62427616977438
-"604","New Jersey","2016-01-01","Cyberbullying",45,1.62427616977438
-"605","New Jersey","2016-02-01","Cyberbullying",84,1.62427616977438
-"606","New Jersey","2016-03-01","Cyberbullying",60,1.62427616977438
-"607","New Jersey","2016-04-01","Cyberbullying",56,1.62427616977438
-"608","New Jersey","2016-05-01","Cyberbullying",41,1.62427616977438
-"609","New Jersey","2016-06-01","Cyberbullying",11,1.62427616977438
-"610","New Jersey","2016-07-01","Cyberbullying",13,1.62427616977438
-"611","New Jersey","2016-08-01","Cyberbullying",27,1.62427616977438
-"612","New Jersey","2016-09-01","Cyberbullying",41,1.62427616977438
-"613","New Jersey","2016-10-01","Cyberbullying",47,1.62427616977438
-"614","New Jersey","2016-11-01","Cyberbullying",47,1.62427616977438
-"615","New Jersey","2016-12-01","Cyberbullying",33,1.62427616977438
-"616","New Jersey","2017-01-01","Cyberbullying",47,1.62427616977438
-"617","New Jersey","2017-02-01","Cyberbullying",46,1.62427616977438
-"618","New Jersey","2017-03-01","Cyberbullying",31,1.62427616977438
-"619","New Jersey","2017-04-01","Cyberbullying",40,1.62427616977438
-"620","New Jersey","2017-05-01","Cyberbullying",50,1.62427616977438
-"621","New Jersey","2017-06-01","Cyberbullying",29,1.62427616977438
-"622","New Jersey","2017-07-01","Cyberbullying",12,1.62427616977438
-"623","New Jersey","2017-08-01","Cyberbullying",13,1.62427616977438
-"624","New Jersey","2017-09-01","Cyberbullying",29,1.62427616977438
-"625","New Jersey","2017-10-01","Cyberbullying",64,1.62427616977438
-"626","New Jersey","2017-11-01","Cyberbullying",57,1.62427616977438
-"627","New Jersey","2017-12-01","Cyberbullying",42,1.62427616977438
-"628","New Jersey","2018-01-01","Cyberbullying",37,1.62427616977438
-"629","New Jersey","2018-02-01","Cyberbullying",47,1.62427616977438
-"630","New Jersey","2018-03-01","Cyberbullying",47,1.62427616977438
-"631","New Jersey","2018-04-01","Cyberbullying",25,1.62427616977438
-"632","New Jersey","2018-05-01","Cyberbullying",39,1.62427616977438
-"633","New Jersey","2018-06-01","Cyberbullying",23,1.62427616977438
-"634","New Jersey","2018-07-01","Cyberbullying",9,1.62427616977438
-"635","New Jersey","2018-08-01","Cyberbullying",11,1.62427616977438
-"636","New Jersey","2018-09-01","Cyberbullying",33,1.62427616977438
-"637","New Jersey","2018-10-01","Cyberbullying",39,1.62427616977438
-"638","New Jersey","2018-11-01","Cyberbullying",27,1.62427616977438
-"639","New Jersey","2018-12-01","Cyberbullying",28,1.62427616977438
-"640","New Jersey","2019-01-01","Cyberbullying",18,1.62427616977438
-"641","New Jersey","2019-02-01","Cyberbullying",44,1.62427616977438
-"642","New Jersey","2019-03-01","Cyberbullying",39,1.62427616977438
-"643","New Jersey","2019-04-01","Cyberbullying",33,1.62427616977438
-"644","New Jersey","2019-05-01","Cyberbullying",27,1.62427616977438
-"645","New Jersey","2019-06-01","Cyberbullying",9,1.62427616977438
-"646","New Jersey","2019-07-01","Cyberbullying",4,1.62427616977438
-"647","New Jersey","2019-08-01","Cyberbullying",7,1.62427616977438
-"648","New Jersey","2019-09-01","Cyberbullying",19,1.62427616977438
-"649","New Jersey","2019-10-01","Cyberbullying",44,1.62427616977438
-"650","New Jersey","2019-11-01","Cyberbullying",34,1.62427616977438
-"651","New Jersey","2019-12-01","Cyberbullying",13,1.62427616977438
-"652","New Jersey","2020-01-01","Cyberbullying",22,1.62427616977438
-"653","New Jersey","2020-02-01","Cyberbullying",43,1.62427616977438
-"654","New Jersey","2020-03-01","Cyberbullying",22,1.62427616977438
-"655","New Jersey","2020-04-01","Cyberbullying",21,1.62427616977438
-"656","New Jersey","2020-05-01","Cyberbullying",17,1.62427616977438
-"657","New Jersey","2020-06-01","Cyberbullying",14,1.62427616977438
-"658","New Jersey","2020-07-01","Cyberbullying",10,1.62427616977438
-"659","New Jersey","2020-08-01","Cyberbullying",6,1.62427616977438
-"660","New Jersey","2020-09-01","Cyberbullying",28,1.62427616977438
-"661","New Jersey","2020-10-01","Cyberbullying",17,1.62427616977438
-"662","New Jersey","2020-11-01","Cyberbullying",20,1.62427616977438
-"663","New Jersey","2020-12-01","Cyberbullying",7,1.62427616977438
-"664","New Jersey","2021-01-01","Cyberbullying",10,1.62427616977438
-"665","New Jersey","2021-02-01","Cyberbullying",8,1.62427616977438
-"666","New Jersey","2021-03-01","Cyberbullying",22,1.62427616977438
-"667","New York","2012-01-01","Cyberbullying",75,1
-"668","New York","2012-02-01","Cyberbullying",73,1
-"669","New York","2012-03-01","Cyberbullying",100,1
-"670","New York","2012-04-01","Cyberbullying",66,1
-"671","New York","2012-05-01","Cyberbullying",78,1
-"672","New York","2012-06-01","Cyberbullying",50,1
-"673","New York","2012-07-01","Cyberbullying",24,1
-"674","New York","2012-08-01","Cyberbullying",30,1
-"675","New York","2012-09-01","Cyberbullying",30,1
-"676","New York","2012-10-01","Cyberbullying",85,1
-"677","New York","2012-11-01","Cyberbullying",52,1
-"678","New York","2012-12-01","Cyberbullying",57,1
-"679","New York","2013-01-01","Cyberbullying",50,1
-"680","New York","2013-02-01","Cyberbullying",57,1
-"681","New York","2013-03-01","Cyberbullying",48,1
-"682","New York","2013-04-01","Cyberbullying",73,1
-"683","New York","2013-05-01","Cyberbullying",50,1
-"684","New York","2013-06-01","Cyberbullying",39,1
-"685","New York","2013-07-01","Cyberbullying",16,1
-"686","New York","2013-08-01","Cyberbullying",20,1
-"687","New York","2013-09-01","Cyberbullying",48,1
-"688","New York","2013-10-01","Cyberbullying",87,1
-"689","New York","2013-11-01","Cyberbullying",97,1
-"690","New York","2013-12-01","Cyberbullying",62,1
-"691","New York","2014-01-01","Cyberbullying",58,1
-"692","New York","2014-02-01","Cyberbullying",59,1
-"693","New York","2014-03-01","Cyberbullying",53,1
-"694","New York","2014-04-01","Cyberbullying",52,1
-"695","New York","2014-05-01","Cyberbullying",72,1
-"696","New York","2014-06-01","Cyberbullying",36,1
-"697","New York","2014-07-01","Cyberbullying",26,1
-"698","New York","2014-08-01","Cyberbullying",25,1
-"699","New York","2014-09-01","Cyberbullying",46,1
-"700","New York","2014-10-01","Cyberbullying",56,1
-"701","New York","2014-11-01","Cyberbullying",81,1
-"702","New York","2014-12-01","Cyberbullying",62,1
-"703","New York","2015-01-01","Cyberbullying",60,1
-"704","New York","2015-02-01","Cyberbullying",56,1
-"705","New York","2015-03-01","Cyberbullying",77,1
-"706","New York","2015-04-01","Cyberbullying",77,1
-"707","New York","2015-05-01","Cyberbullying",71,1
-"708","New York","2015-06-01","Cyberbullying",54,1
-"709","New York","2015-07-01","Cyberbullying",23,1
-"710","New York","2015-08-01","Cyberbullying",24,1
-"711","New York","2015-09-01","Cyberbullying",52,1
-"712","New York","2015-10-01","Cyberbullying",60,1
-"713","New York","2015-11-01","Cyberbullying",66,1
-"714","New York","2015-12-01","Cyberbullying",67,1
-"715","New York","2016-01-01","Cyberbullying",35,1
-"716","New York","2016-02-01","Cyberbullying",60,1
-"717","New York","2016-03-01","Cyberbullying",53,1
-"718","New York","2016-04-01","Cyberbullying",51,1
-"719","New York","2016-05-01","Cyberbullying",51,1
-"720","New York","2016-06-01","Cyberbullying",34,1
-"721","New York","2016-07-01","Cyberbullying",25,1
-"722","New York","2016-08-01","Cyberbullying",14,1
-"723","New York","2016-09-01","Cyberbullying",35,1
-"724","New York","2016-10-01","Cyberbullying",49,1
-"725","New York","2016-11-01","Cyberbullying",43,1
-"726","New York","2016-12-01","Cyberbullying",70,1
-"727","New York","2017-01-01","Cyberbullying",39,1
-"728","New York","2017-02-01","Cyberbullying",53,1
-"729","New York","2017-03-01","Cyberbullying",62,1
-"730","New York","2017-04-01","Cyberbullying",47,1
-"731","New York","2017-05-01","Cyberbullying",70,1
-"732","New York","2017-06-01","Cyberbullying",27,1
-"733","New York","2017-07-01","Cyberbullying",25,1
-"734","New York","2017-08-01","Cyberbullying",20,1
-"735","New York","2017-09-01","Cyberbullying",40,1
-"736","New York","2017-10-01","Cyberbullying",65,1
-"737","New York","2017-11-01","Cyberbullying",54,1
-"738","New York","2017-12-01","Cyberbullying",65,1
-"739","New York","2018-01-01","Cyberbullying",48,1
-"740","New York","2018-02-01","Cyberbullying",54,1
-"741","New York","2018-03-01","Cyberbullying",44,1
-"742","New York","2018-04-01","Cyberbullying",34,1
-"743","New York","2018-05-01","Cyberbullying",49,1
-"744","New York","2018-06-01","Cyberbullying",30,1
-"745","New York","2018-07-01","Cyberbullying",13,1
-"746","New York","2018-08-01","Cyberbullying",19,1
-"747","New York","2018-09-01","Cyberbullying",23,1
-"748","New York","2018-10-01","Cyberbullying",55,1
-"749","New York","2018-11-01","Cyberbullying",45,1
-"750","New York","2018-12-01","Cyberbullying",38,1
-"751","New York","2019-01-01","Cyberbullying",50,1
-"752","New York","2019-02-01","Cyberbullying",46,1
-"753","New York","2019-03-01","Cyberbullying",37,1
-"754","New York","2019-04-01","Cyberbullying",24,1
-"755","New York","2019-05-01","Cyberbullying",33,1
-"756","New York","2019-06-01","Cyberbullying",31,1
-"757","New York","2019-07-01","Cyberbullying",10,1
-"758","New York","2019-08-01","Cyberbullying",8,1
-"759","New York","2019-09-01","Cyberbullying",29,1
-"760","New York","2019-10-01","Cyberbullying",39,1
-"761","New York","2019-11-01","Cyberbullying",30,1
-"762","New York","2019-12-01","Cyberbullying",40,1
-"763","New York","2020-01-01","Cyberbullying",30,1
-"764","New York","2020-02-01","Cyberbullying",37,1
-"765","New York","2020-03-01","Cyberbullying",24,1
-"766","New York","2020-04-01","Cyberbullying",27,1
-"767","New York","2020-05-01","Cyberbullying",17,1
-"768","New York","2020-06-01","Cyberbullying",21,1
-"769","New York","2020-07-01","Cyberbullying",4,1
-"770","New York","2020-08-01","Cyberbullying",19,1
-"771","New York","2020-09-01","Cyberbullying",25,1
-"772","New York","2020-10-01","Cyberbullying",21,1
-"773","New York","2020-11-01","Cyberbullying",30,1
-"774","New York","2020-12-01","Cyberbullying",14,1
-"775","New York","2021-01-01","Cyberbullying",16,1
-"776","New York","2021-02-01","Cyberbullying",28,1
-"777","New York","2021-03-01","Cyberbullying",24,1
-"778","Texas","2012-01-01","Cyberbullying",32,1.24804967294494
-"779","Texas","2012-02-01","Cyberbullying",49,1.24804967294494
-"780","Texas","2012-03-01","Cyberbullying",37,1.24804967294494
-"781","Texas","2012-04-01","Cyberbullying",47,1.24804967294494
-"782","Texas","2012-05-01","Cyberbullying",33,1.24804967294494
-"783","Texas","2012-06-01","Cyberbullying",22,1.24804967294494
-"784","Texas","2012-07-01","Cyberbullying",11,1.24804967294494
-"785","Texas","2012-08-01","Cyberbullying",19,1.24804967294494
-"786","Texas","2012-09-01","Cyberbullying",46,1.24804967294494
-"787","Texas","2012-10-01","Cyberbullying",59,1.24804967294494
-"788","Texas","2012-11-01","Cyberbullying",60,1.24804967294494
-"789","Texas","2012-12-01","Cyberbullying",36,1.24804967294494
-"790","Texas","2013-01-01","Cyberbullying",35,1.24804967294494
-"791","Texas","2013-02-01","Cyberbullying",44,1.24804967294494
-"792","Texas","2013-03-01","Cyberbullying",30,1.24804967294494
-"793","Texas","2013-04-01","Cyberbullying",39,1.24804967294494
-"794","Texas","2013-05-01","Cyberbullying",50,1.24804967294494
-"795","Texas","2013-06-01","Cyberbullying",7,1.24804967294494
-"796","Texas","2013-07-01","Cyberbullying",15,1.24804967294494
-"797","Texas","2013-08-01","Cyberbullying",24,1.24804967294494
-"798","Texas","2013-09-01","Cyberbullying",63,1.24804967294494
-"799","Texas","2013-10-01","Cyberbullying",79,1.24804967294494
-"800","Texas","2013-11-01","Cyberbullying",59,1.24804967294494
-"801","Texas","2013-12-01","Cyberbullying",32,1.24804967294494
-"802","Texas","2014-01-01","Cyberbullying",45,1.24804967294494
-"803","Texas","2014-02-01","Cyberbullying",52,1.24804967294494
-"804","Texas","2014-03-01","Cyberbullying",33,1.24804967294494
-"805","Texas","2014-04-01","Cyberbullying",55,1.24804967294494
-"806","Texas","2014-05-01","Cyberbullying",44,1.24804967294494
-"807","Texas","2014-06-01","Cyberbullying",25,1.24804967294494
-"808","Texas","2014-07-01","Cyberbullying",8,1.24804967294494
-"809","Texas","2014-08-01","Cyberbullying",24,1.24804967294494
-"810","Texas","2014-09-01","Cyberbullying",86,1.24804967294494
-"811","Texas","2014-10-01","Cyberbullying",100,1.24804967294494
-"812","Texas","2014-11-01","Cyberbullying",42,1.24804967294494
-"813","Texas","2014-12-01","Cyberbullying",47,1.24804967294494
-"814","Texas","2015-01-01","Cyberbullying",32,1.24804967294494
-"815","Texas","2015-02-01","Cyberbullying",55,1.24804967294494
-"816","Texas","2015-03-01","Cyberbullying",61,1.24804967294494
-"817","Texas","2015-04-01","Cyberbullying",64,1.24804967294494
-"818","Texas","2015-05-01","Cyberbullying",56,1.24804967294494
-"819","Texas","2015-06-01","Cyberbullying",17,1.24804967294494
-"820","Texas","2015-07-01","Cyberbullying",10,1.24804967294494
-"821","Texas","2015-08-01","Cyberbullying",19,1.24804967294494
-"822","Texas","2015-09-01","Cyberbullying",46,1.24804967294494
-"823","Texas","2015-10-01","Cyberbullying",71,1.24804967294494
-"824","Texas","2015-11-01","Cyberbullying",44,1.24804967294494
-"825","Texas","2015-12-01","Cyberbullying",30,1.24804967294494
-"826","Texas","2016-01-01","Cyberbullying",31,1.24804967294494
-"827","Texas","2016-02-01","Cyberbullying",48,1.24804967294494
-"828","Texas","2016-03-01","Cyberbullying",32,1.24804967294494
-"829","Texas","2016-04-01","Cyberbullying",54,1.24804967294494
-"830","Texas","2016-05-01","Cyberbullying",32,1.24804967294494
-"831","Texas","2016-06-01","Cyberbullying",22,1.24804967294494
-"832","Texas","2016-07-01","Cyberbullying",12,1.24804967294494
-"833","Texas","2016-08-01","Cyberbullying",21,1.24804967294494
-"834","Texas","2016-09-01","Cyberbullying",49,1.24804967294494
-"835","Texas","2016-10-01","Cyberbullying",61,1.24804967294494
-"836","Texas","2016-11-01","Cyberbullying",37,1.24804967294494
-"837","Texas","2016-12-01","Cyberbullying",33,1.24804967294494
-"838","Texas","2017-01-01","Cyberbullying",40,1.24804967294494
-"839","Texas","2017-02-01","Cyberbullying",47,1.24804967294494
-"840","Texas","2017-03-01","Cyberbullying",37,1.24804967294494
-"841","Texas","2017-04-01","Cyberbullying",44,1.24804967294494
-"842","Texas","2017-05-01","Cyberbullying",44,1.24804967294494
-"843","Texas","2017-06-01","Cyberbullying",19,1.24804967294494
-"844","Texas","2017-07-01","Cyberbullying",15,1.24804967294494
-"845","Texas","2017-08-01","Cyberbullying",22,1.24804967294494
-"846","Texas","2017-09-01","Cyberbullying",50,1.24804967294494
-"847","Texas","2017-10-01","Cyberbullying",51,1.24804967294494
-"848","Texas","2017-11-01","Cyberbullying",45,1.24804967294494
-"849","Texas","2017-12-01","Cyberbullying",35,1.24804967294494
-"850","Texas","2018-01-01","Cyberbullying",40,1.24804967294494
-"851","Texas","2018-02-01","Cyberbullying",31,1.24804967294494
-"852","Texas","2018-03-01","Cyberbullying",32,1.24804967294494
-"853","Texas","2018-04-01","Cyberbullying",46,1.24804967294494
-"854","Texas","2018-05-01","Cyberbullying",28,1.24804967294494
-"855","Texas","2018-06-01","Cyberbullying",19,1.24804967294494
-"856","Texas","2018-07-01","Cyberbullying",11,1.24804967294494
-"857","Texas","2018-08-01","Cyberbullying",18,1.24804967294494
-"858","Texas","2018-09-01","Cyberbullying",47,1.24804967294494
-"859","Texas","2018-10-01","Cyberbullying",52,1.24804967294494
-"860","Texas","2018-11-01","Cyberbullying",40,1.24804967294494
-"861","Texas","2018-12-01","Cyberbullying",28,1.24804967294494
-"862","Texas","2019-01-01","Cyberbullying",33,1.24804967294494
-"863","Texas","2019-02-01","Cyberbullying",28,1.24804967294494
-"864","Texas","2019-03-01","Cyberbullying",25,1.24804967294494
-"865","Texas","2019-04-01","Cyberbullying",29,1.24804967294494
-"866","Texas","2019-05-01","Cyberbullying",22,1.24804967294494
-"867","Texas","2019-06-01","Cyberbullying",8,1.24804967294494
-"868","Texas","2019-07-01","Cyberbullying",13,1.24804967294494
-"869","Texas","2019-08-01","Cyberbullying",25,1.24804967294494
-"870","Texas","2019-09-01","Cyberbullying",33,1.24804967294494
-"871","Texas","2019-10-01","Cyberbullying",40,1.24804967294494
-"872","Texas","2019-11-01","Cyberbullying",38,1.24804967294494
-"873","Texas","2019-12-01","Cyberbullying",23,1.24804967294494
-"874","Texas","2020-01-01","Cyberbullying",25,1.24804967294494
-"875","Texas","2020-02-01","Cyberbullying",33,1.24804967294494
-"876","Texas","2020-03-01","Cyberbullying",18,1.24804967294494
-"877","Texas","2020-04-01","Cyberbullying",15,1.24804967294494
-"878","Texas","2020-05-01","Cyberbullying",21,1.24804967294494
-"879","Texas","2020-06-01","Cyberbullying",15,1.24804967294494
-"880","Texas","2020-07-01","Cyberbullying",5,1.24804967294494
-"881","Texas","2020-08-01","Cyberbullying",30,1.24804967294494
-"882","Texas","2020-09-01","Cyberbullying",36,1.24804967294494
-"883","Texas","2020-10-01","Cyberbullying",34,1.24804967294494
-"884","Texas","2020-11-01","Cyberbullying",23,1.24804967294494
-"885","Texas","2020-12-01","Cyberbullying",19,1.24804967294494
-"886","Texas","2021-01-01","Cyberbullying",13,1.24804967294494
-"887","Texas","2021-02-01","Cyberbullying",17,1.24804967294494
-"888","Texas","2021-03-01","Cyberbullying",17,1.24804967294494
-"889","Virginia","2012-01-01","Cyberbullying",55,1.13005398966139
-"890","Virginia","2012-02-01","Cyberbullying",61,1.13005398966139
-"891","Virginia","2012-03-01","Cyberbullying",100,1.13005398966139
-"892","Virginia","2012-04-01","Cyberbullying",83,1.13005398966139
-"893","Virginia","2012-05-01","Cyberbullying",31,1.13005398966139
-"894","Virginia","2012-06-01","Cyberbullying",28,1.13005398966139
-"895","Virginia","2012-07-01","Cyberbullying",37,1.13005398966139
-"896","Virginia","2012-08-01","Cyberbullying",31,1.13005398966139
-"897","Virginia","2012-09-01","Cyberbullying",31,1.13005398966139
-"898","Virginia","2012-10-01","Cyberbullying",38,1.13005398966139
-"899","Virginia","2012-11-01","Cyberbullying",46,1.13005398966139
-"900","Virginia","2012-12-01","Cyberbullying",57,1.13005398966139
-"901","Virginia","2013-01-01","Cyberbullying",38,1.13005398966139
-"902","Virginia","2013-02-01","Cyberbullying",48,1.13005398966139
-"903","Virginia","2013-03-01","Cyberbullying",81,1.13005398966139
-"904","Virginia","2013-04-01","Cyberbullying",50,1.13005398966139
-"905","Virginia","2013-05-01","Cyberbullying",43,1.13005398966139
-"906","Virginia","2013-06-01","Cyberbullying",13,1.13005398966139
-"907","Virginia","2013-07-01","Cyberbullying",24,1.13005398966139
-"908","Virginia","2013-08-01","Cyberbullying",26,1.13005398966139
-"909","Virginia","2013-09-01","Cyberbullying",53,1.13005398966139
-"910","Virginia","2013-10-01","Cyberbullying",57,1.13005398966139
-"911","Virginia","2013-11-01","Cyberbullying",48,1.13005398966139
-"912","Virginia","2013-12-01","Cyberbullying",26,1.13005398966139
-"913","Virginia","2014-01-01","Cyberbullying",37,1.13005398966139
-"914","Virginia","2014-02-01","Cyberbullying",57,1.13005398966139
-"915","Virginia","2014-03-01","Cyberbullying",66,1.13005398966139
-"916","Virginia","2014-04-01","Cyberbullying",50,1.13005398966139
-"917","Virginia","2014-05-01","Cyberbullying",36,1.13005398966139
-"918","Virginia","2014-06-01","Cyberbullying",38,1.13005398966139
-"919","Virginia","2014-07-01","Cyberbullying",2,1.13005398966139
-"920","Virginia","2014-08-01","Cyberbullying",11,1.13005398966139
-"921","Virginia","2014-09-01","Cyberbullying",23,1.13005398966139
-"922","Virginia","2014-10-01","Cyberbullying",30,1.13005398966139
-"923","Virginia","2014-11-01","Cyberbullying",42,1.13005398966139
-"924","Virginia","2014-12-01","Cyberbullying",28,1.13005398966139
-"925","Virginia","2015-01-01","Cyberbullying",21,1.13005398966139
-"926","Virginia","2015-02-01","Cyberbullying",24,1.13005398966139
-"927","Virginia","2015-03-01","Cyberbullying",25,1.13005398966139
-"928","Virginia","2015-04-01","Cyberbullying",23,1.13005398966139
-"929","Virginia","2015-05-01","Cyberbullying",9,1.13005398966139
-"930","Virginia","2015-06-01","Cyberbullying",12,1.13005398966139
-"931","Virginia","2015-07-01","Cyberbullying",36,1.13005398966139
-"932","Virginia","2015-08-01","Cyberbullying",9,1.13005398966139
-"933","Virginia","2015-09-01","Cyberbullying",60,1.13005398966139
-"934","Virginia","2015-10-01","Cyberbullying",24,1.13005398966139
-"935","Virginia","2015-11-01","Cyberbullying",42,1.13005398966139
-"936","Virginia","2015-12-01","Cyberbullying",66,1.13005398966139
-"937","Virginia","2016-01-01","Cyberbullying",27,1.13005398966139
-"938","Virginia","2016-02-01","Cyberbullying",44,1.13005398966139
-"939","Virginia","2016-03-01","Cyberbullying",49,1.13005398966139
-"940","Virginia","2016-04-01","Cyberbullying",44,1.13005398966139
-"941","Virginia","2016-05-01","Cyberbullying",27,1.13005398966139
-"942","Virginia","2016-06-01","Cyberbullying",26,1.13005398966139
-"943","Virginia","2016-07-01","Cyberbullying",18,1.13005398966139
-"944","Virginia","2016-08-01","Cyberbullying",11,1.13005398966139
-"945","Virginia","2016-09-01","Cyberbullying",20,1.13005398966139
-"946","Virginia","2016-10-01","Cyberbullying",41,1.13005398966139
-"947","Virginia","2016-11-01","Cyberbullying",41,1.13005398966139
-"948","Virginia","2016-12-01","Cyberbullying",33,1.13005398966139
-"949","Virginia","2017-01-01","Cyberbullying",54,1.13005398966139
-"950","Virginia","2017-02-01","Cyberbullying",33,1.13005398966139
-"951","Virginia","2017-03-01","Cyberbullying",38,1.13005398966139
-"952","Virginia","2017-04-01","Cyberbullying",35,1.13005398966139
-"953","Virginia","2017-05-01","Cyberbullying",50,1.13005398966139
-"954","Virginia","2017-06-01","Cyberbullying",25,1.13005398966139
-"955","Virginia","2017-07-01","Cyberbullying",19,1.13005398966139
-"956","Virginia","2017-08-01","Cyberbullying",24,1.13005398966139
-"957","Virginia","2017-09-01","Cyberbullying",29,1.13005398966139
-"958","Virginia","2017-10-01","Cyberbullying",50,1.13005398966139
-"959","Virginia","2017-11-01","Cyberbullying",52,1.13005398966139
-"960","Virginia","2017-12-01","Cyberbullying",35,1.13005398966139
-"961","Virginia","2018-01-01","Cyberbullying",30,1.13005398966139
-"962","Virginia","2018-02-01","Cyberbullying",33,1.13005398966139
-"963","Virginia","2018-03-01","Cyberbullying",25,1.13005398966139
-"964","Virginia","2018-04-01","Cyberbullying",27,1.13005398966139
-"965","Virginia","2018-05-01","Cyberbullying",37,1.13005398966139
-"966","Virginia","2018-06-01","Cyberbullying",19,1.13005398966139
-"967","Virginia","2018-07-01","Cyberbullying",17,1.13005398966139
-"968","Virginia","2018-08-01","Cyberbullying",20,1.13005398966139
-"969","Virginia","2018-09-01","Cyberbullying",41,1.13005398966139
-"970","Virginia","2018-10-01","Cyberbullying",51,1.13005398966139
-"971","Virginia","2018-11-01","Cyberbullying",49,1.13005398966139
-"972","Virginia","2018-12-01","Cyberbullying",45,1.13005398966139
-"973","Virginia","2019-01-01","Cyberbullying",40,1.13005398966139
-"974","Virginia","2019-02-01","Cyberbullying",47,1.13005398966139
-"975","Virginia","2019-03-01","Cyberbullying",46,1.13005398966139
-"976","Virginia","2019-04-01","Cyberbullying",42,1.13005398966139
-"977","Virginia","2019-05-01","Cyberbullying",18,1.13005398966139
-"978","Virginia","2019-06-01","Cyberbullying",25,1.13005398966139
-"979","Virginia","2019-07-01","Cyberbullying",28,1.13005398966139
-"980","Virginia","2019-08-01","Cyberbullying",13,1.13005398966139
-"981","Virginia","2019-09-01","Cyberbullying",35,1.13005398966139
-"982","Virginia","2019-10-01","Cyberbullying",65,1.13005398966139
-"983","Virginia","2019-11-01","Cyberbullying",61,1.13005398966139
-"984","Virginia","2019-12-01","Cyberbullying",27,1.13005398966139
-"985","Virginia","2020-01-01","Cyberbullying",26,1.13005398966139
-"986","Virginia","2020-02-01","Cyberbullying",48,1.13005398966139
-"987","Virginia","2020-03-01","Cyberbullying",22,1.13005398966139
-"988","Virginia","2020-04-01","Cyberbullying",7,1.13005398966139
-"989","Virginia","2020-05-01","Cyberbullying",26,1.13005398966139
-"990","Virginia","2020-06-01","Cyberbullying",11,1.13005398966139
-"991","Virginia","2020-07-01","Cyberbullying",9,1.13005398966139
-"992","Virginia","2020-08-01","Cyberbullying",9,1.13005398966139
-"993","Virginia","2020-09-01","Cyberbullying",24,1.13005398966139
-"994","Virginia","2020-10-01","Cyberbullying",41,1.13005398966139
-"995","Virginia","2020-11-01","Cyberbullying",15,1.13005398966139
-"996","Virginia","2020-12-01","Cyberbullying",16,1.13005398966139
-"997","Virginia","2021-01-01","Cyberbullying",10,1.13005398966139
-"998","Virginia","2021-02-01","Cyberbullying",17,1.13005398966139
-"999","Virginia","2021-03-01","Cyberbullying",22,1.13005398966139
-"1000","Washington","2012-01-01","Cyberbullying",81,1.10149091927769
-"1001","Washington","2012-02-01","Cyberbullying",73,1.10149091927769
-"1002","Washington","2012-03-01","Cyberbullying",72,1.10149091927769
-"1003","Washington","2012-04-01","Cyberbullying",60,1.10149091927769
-"1004","Washington","2012-05-01","Cyberbullying",63,1.10149091927769
-"1005","Washington","2012-06-01","Cyberbullying",20,1.10149091927769
-"1006","Washington","2012-07-01","Cyberbullying",5,1.10149091927769
-"1007","Washington","2012-08-01","Cyberbullying",15,1.10149091927769
-"1008","Washington","2012-09-01","Cyberbullying",11,1.10149091927769
-"1009","Washington","2012-10-01","Cyberbullying",85,1.10149091927769
-"1010","Washington","2012-11-01","Cyberbullying",47,1.10149091927769
-"1011","Washington","2012-12-01","Cyberbullying",19,1.10149091927769
-"1012","Washington","2013-01-01","Cyberbullying",49,1.10149091927769
-"1013","Washington","2013-02-01","Cyberbullying",71,1.10149091927769
-"1014","Washington","2013-03-01","Cyberbullying",79,1.10149091927769
-"1015","Washington","2013-04-01","Cyberbullying",67,1.10149091927769
-"1016","Washington","2013-05-01","Cyberbullying",43,1.10149091927769
-"1017","Washington","2013-06-01","Cyberbullying",45,1.10149091927769
-"1018","Washington","2013-07-01","Cyberbullying",22,1.10149091927769
-"1019","Washington","2013-08-01","Cyberbullying",4,1.10149091927769
-"1020","Washington","2013-09-01","Cyberbullying",51,1.10149091927769
-"1021","Washington","2013-10-01","Cyberbullying",88,1.10149091927769
-"1022","Washington","2013-11-01","Cyberbullying",81,1.10149091927769
-"1023","Washington","2013-12-01","Cyberbullying",41,1.10149091927769
-"1024","Washington","2014-01-01","Cyberbullying",66,1.10149091927769
-"1025","Washington","2014-02-01","Cyberbullying",52,1.10149091927769
-"1026","Washington","2014-03-01","Cyberbullying",78,1.10149091927769
-"1027","Washington","2014-04-01","Cyberbullying",49,1.10149091927769
-"1028","Washington","2014-05-01","Cyberbullying",52,1.10149091927769
-"1029","Washington","2014-06-01","Cyberbullying",27,1.10149091927769
-"1030","Washington","2014-07-01","Cyberbullying",41,1.10149091927769
-"1031","Washington","2014-08-01","Cyberbullying",25,1.10149091927769
-"1032","Washington","2014-09-01","Cyberbullying",39,1.10149091927769
-"1033","Washington","2014-10-01","Cyberbullying",39,1.10149091927769
-"1034","Washington","2014-11-01","Cyberbullying",24,1.10149091927769
-"1035","Washington","2014-12-01","Cyberbullying",14,1.10149091927769
-"1036","Washington","2015-01-01","Cyberbullying",26,1.10149091927769
-"1037","Washington","2015-02-01","Cyberbullying",65,1.10149091927769
-"1038","Washington","2015-03-01","Cyberbullying",100,1.10149091927769
-"1039","Washington","2015-04-01","Cyberbullying",54,1.10149091927769
-"1040","Washington","2015-05-01","Cyberbullying",93,1.10149091927769
-"1041","Washington","2015-06-01","Cyberbullying",31,1.10149091927769
-"1042","Washington","2015-07-01","Cyberbullying",28,1.10149091927769
-"1043","Washington","2015-08-01","Cyberbullying",20,1.10149091927769
-"1044","Washington","2015-09-01","Cyberbullying",28,1.10149091927769
-"1045","Washington","2015-10-01","Cyberbullying",40,1.10149091927769
-"1046","Washington","2015-11-01","Cyberbullying",39,1.10149091927769
-"1047","Washington","2015-12-01","Cyberbullying",34,1.10149091927769
-"1048","Washington","2016-01-01","Cyberbullying",27,1.10149091927769
-"1049","Washington","2016-02-01","Cyberbullying",32,1.10149091927769
-"1050","Washington","2016-03-01","Cyberbullying",45,1.10149091927769
-"1051","Washington","2016-04-01","Cyberbullying",52,1.10149091927769
-"1052","Washington","2016-05-01","Cyberbullying",49,1.10149091927769
-"1053","Washington","2016-06-01","Cyberbullying",16,1.10149091927769
-"1054","Washington","2016-07-01","Cyberbullying",25,1.10149091927769
-"1055","Washington","2016-08-01","Cyberbullying",12,1.10149091927769
-"1056","Washington","2016-09-01","Cyberbullying",60,1.10149091927769
-"1057","Washington","2016-10-01","Cyberbullying",23,1.10149091927769
-"1058","Washington","2016-11-01","Cyberbullying",37,1.10149091927769
-"1059","Washington","2016-12-01","Cyberbullying",36,1.10149091927769
-"1060","Washington","2017-01-01","Cyberbullying",31,1.10149091927769
-"1061","Washington","2017-02-01","Cyberbullying",30,1.10149091927769
-"1062","Washington","2017-03-01","Cyberbullying",40,1.10149091927769
-"1063","Washington","2017-04-01","Cyberbullying",36,1.10149091927769
-"1064","Washington","2017-05-01","Cyberbullying",36,1.10149091927769
-"1065","Washington","2017-06-01","Cyberbullying",11,1.10149091927769
-"1066","Washington","2017-07-01","Cyberbullying",22,1.10149091927769
-"1067","Washington","2017-08-01","Cyberbullying",24,1.10149091927769
-"1068","Washington","2017-09-01","Cyberbullying",21,1.10149091927769
-"1069","Washington","2017-10-01","Cyberbullying",49,1.10149091927769
-"1070","Washington","2017-11-01","Cyberbullying",41,1.10149091927769
-"1071","Washington","2017-12-01","Cyberbullying",17,1.10149091927769
-"1072","Washington","2018-01-01","Cyberbullying",38,1.10149091927769
-"1073","Washington","2018-02-01","Cyberbullying",29,1.10149091927769
-"1074","Washington","2018-03-01","Cyberbullying",65,1.10149091927769
-"1075","Washington","2018-04-01","Cyberbullying",34,1.10149091927769
-"1076","Washington","2018-05-01","Cyberbullying",34,1.10149091927769
-"1077","Washington","2018-06-01","Cyberbullying",21,1.10149091927769
-"1078","Washington","2018-07-01","Cyberbullying",7,1.10149091927769
-"1079","Washington","2018-08-01","Cyberbullying",10,1.10149091927769
-"1080","Washington","2018-09-01","Cyberbullying",21,1.10149091927769
-"1081","Washington","2018-10-01","Cyberbullying",17,1.10149091927769
-"1082","Washington","2018-11-01","Cyberbullying",25,1.10149091927769
-"1083","Washington","2018-12-01","Cyberbullying",11,1.10149091927769
-"1084","Washington","2019-01-01","Cyberbullying",16,1.10149091927769
-"1085","Washington","2019-02-01","Cyberbullying",28,1.10149091927769
-"1086","Washington","2019-03-01","Cyberbullying",37,1.10149091927769
-"1087","Washington","2019-04-01","Cyberbullying",21,1.10149091927769
-"1088","Washington","2019-05-01","Cyberbullying",27,1.10149091927769
-"1089","Washington","2019-06-01","Cyberbullying",24,1.10149091927769
-"1090","Washington","2019-07-01","Cyberbullying",3,1.10149091927769
-"1091","Washington","2019-08-01","Cyberbullying",10,1.10149091927769
-"1092","Washington","2019-09-01","Cyberbullying",25,1.10149091927769
-"1093","Washington","2019-10-01","Cyberbullying",26,1.10149091927769
-"1094","Washington","2019-11-01","Cyberbullying",22,1.10149091927769
-"1095","Washington","2019-12-01","Cyberbullying",6,1.10149091927769
-"1096","Washington","2020-01-01","Cyberbullying",23,1.10149091927769
-"1097","Washington","2020-02-01","Cyberbullying",28,1.10149091927769
-"1098","Washington","2020-03-01","Cyberbullying",25,1.10149091927769
-"1099","Washington","2020-04-01","Cyberbullying",19,1.10149091927769
-"1100","Washington","2020-05-01","Cyberbullying",19,1.10149091927769
-"1101","Washington","2020-06-01","Cyberbullying",19,1.10149091927769
-"1102","Washington","2020-07-01","Cyberbullying",6,1.10149091927769
-"1103","Washington","2020-08-01","Cyberbullying",12,1.10149091927769
-"1104","Washington","2020-09-01","Cyberbullying",6,1.10149091927769
-"1105","Washington","2020-10-01","Cyberbullying",19,1.10149091927769
-"1106","Washington","2020-11-01","Cyberbullying",29,1.10149091927769
-"1107","Washington","2020-12-01","Cyberbullying",10,1.10149091927769
-"1108","Washington","2021-01-01","Cyberbullying",12,1.10149091927769
-"1109","Washington","2021-02-01","Cyberbullying",4,1.10149091927769
-"1110","Washington","2021-03-01","Cyberbullying",11,1.10149091927769
+"","State.Name","date","keyword","hits","ratio","year","month","day"
+"1","California","2016-01-01","Cyberbullying",32,1,2016,1,1
+"2","California","2016-03-01","Cyberbullying",66,1,2016,3,1
+"3","California","2016-07-01","Cyberbullying",19,1,2016,7,1
+"4","California","2016-09-01","Cyberbullying",52,1,2016,9,1
+"5","California","2017-01-01","Cyberbullying",30,1,2017,1,1
+"6","California","2017-03-01","Cyberbullying",58,1,2017,3,1
+"7","California","2017-07-01","Cyberbullying",13,1,2017,7,1
+"8","California","2017-09-01","Cyberbullying",53,1,2017,9,1
+"9","California","2018-01-01","Cyberbullying",34,1,2018,1,1
+"10","California","2018-03-01","Cyberbullying",50,1,2018,3,1
+"11","California","2018-07-01","Cyberbullying",21,1,2018,7,1
+"12","California","2018-09-01","Cyberbullying",39,1,2018,9,1
+"13","California","2019-01-01","Cyberbullying",26,1,2019,1,1
+"14","California","2019-03-01","Cyberbullying",44,1,2019,3,1
+"15","California","2019-07-01","Cyberbullying",17,1,2019,7,1
+"16","California","2019-09-01","Cyberbullying",28,1,2019,9,1
+"17","California","2020-01-01","Cyberbullying",30,1,2020,1,1
+"18","California","2020-03-01","Cyberbullying",30,1,2020,3,1
+"19","California","2020-07-01","Cyberbullying",15,1,2020,7,1
+"20","California","2020-09-01","Cyberbullying",27,1,2020,9,1
+"21","California","2021-01-01","Cyberbullying",10,1,2021,1,1
+"22","California","2021-03-01","Cyberbullying",16,1,2021,3,1
+"23","Florida","2016-01-01","Cyberbullying",32,1,2016,1,1
+"24","Florida","2016-03-01","Cyberbullying",33,1,2016,3,1
+"25","Florida","2016-07-01","Cyberbullying",28,1,2016,7,1
+"26","Florida","2016-09-01","Cyberbullying",37,1,2016,9,1
+"27","Florida","2017-01-01","Cyberbullying",26,1,2017,1,1
+"28","Florida","2017-03-01","Cyberbullying",40,1,2017,3,1
+"29","Florida","2017-07-01","Cyberbullying",11,1,2017,7,1
+"30","Florida","2017-09-01","Cyberbullying",32,1,2017,9,1
+"31","Florida","2018-01-01","Cyberbullying",31,1,2018,1,1
+"32","Florida","2018-03-01","Cyberbullying",37,1,2018,3,1
+"33","Florida","2018-07-01","Cyberbullying",12,1,2018,7,1
+"34","Florida","2018-09-01","Cyberbullying",39,1,2018,9,1
+"35","Florida","2019-01-01","Cyberbullying",29,1,2019,1,1
+"36","Florida","2019-03-01","Cyberbullying",23,1,2019,3,1
+"37","Florida","2019-07-01","Cyberbullying",15,1,2019,7,1
+"38","Florida","2019-09-01","Cyberbullying",39,1,2019,9,1
+"39","Florida","2020-01-01","Cyberbullying",30,1,2020,1,1
+"40","Florida","2020-03-01","Cyberbullying",25,1,2020,3,1
+"41","Florida","2020-07-01","Cyberbullying",17,1,2020,7,1
+"42","Florida","2020-09-01","Cyberbullying",39,1,2020,9,1
+"43","Florida","2021-01-01","Cyberbullying",33,1,2021,1,1
+"44","Florida","2021-03-01","Cyberbullying",30,1,2021,3,1
+"45","Hawaii","2016-01-01","Cyberbullying",8,3.05741252938509,2016,1,1
+"46","Hawaii","2016-03-01","Cyberbullying",31,3.05741252938509,2016,3,1
+"47","Hawaii","2016-07-01","Cyberbullying",0,3.05741252938509,2016,7,1
+"48","Hawaii","2016-09-01","Cyberbullying",39,3.05741252938509,2016,9,1
+"49","Hawaii","2017-01-01","Cyberbullying",21,3.05741252938509,2017,1,1
+"50","Hawaii","2017-03-01","Cyberbullying",20,3.05741252938509,2017,3,1
+"51","Hawaii","2017-07-01","Cyberbullying",0,3.05741252938509,2017,7,1
+"52","Hawaii","2017-09-01","Cyberbullying",15,3.05741252938509,2017,9,1
+"53","Hawaii","2018-01-01","Cyberbullying",21,3.05741252938509,2018,1,1
+"54","Hawaii","2018-03-01","Cyberbullying",21,3.05741252938509,2018,3,1
+"55","Hawaii","2018-07-01","Cyberbullying",15,3.05741252938509,2018,7,1
+"56","Hawaii","2018-09-01","Cyberbullying",15,3.05741252938509,2018,9,1
+"57","Hawaii","2019-01-01","Cyberbullying",21,3.05741252938509,2019,1,1
+"58","Hawaii","2019-03-01","Cyberbullying",14,3.05741252938509,2019,3,1
+"59","Hawaii","2019-07-01","Cyberbullying",0,3.05741252938509,2019,7,1
+"60","Hawaii","2019-09-01","Cyberbullying",15,3.05741252938509,2019,9,1
+"61","Hawaii","2020-01-01","Cyberbullying",7,3.05741252938509,2020,1,1
+"62","Hawaii","2020-03-01","Cyberbullying",6,3.05741252938509,2020,3,1
+"63","Hawaii","2020-07-01","Cyberbullying",7,3.05741252938509,2020,7,1
+"64","Hawaii","2020-09-01","Cyberbullying",6,3.05741252938509,2020,9,1
+"65","Hawaii","2021-01-01","Cyberbullying",7,3.05741252938509,2021,1,1
+"66","Hawaii","2021-03-01","Cyberbullying",8,3.05741252938509,2021,3,1
+"67","Illinois","2016-01-01","Cyberbullying",29,1.30152675017661,2016,1,1
+"68","Illinois","2016-03-01","Cyberbullying",43,1.30152675017661,2016,3,1
+"69","Illinois","2016-07-01","Cyberbullying",13,1.30152675017661,2016,7,1
+"70","Illinois","2016-09-01","Cyberbullying",47,1.30152675017661,2016,9,1
+"71","Illinois","2017-01-01","Cyberbullying",39,1.30152675017661,2017,1,1
+"72","Illinois","2017-03-01","Cyberbullying",51,1.30152675017661,2017,3,1
+"73","Illinois","2017-07-01","Cyberbullying",17,1.30152675017661,2017,7,1
+"74","Illinois","2017-09-01","Cyberbullying",41,1.30152675017661,2017,9,1
+"75","Illinois","2018-01-01","Cyberbullying",32,1.30152675017661,2018,1,1
+"76","Illinois","2018-03-01","Cyberbullying",36,1.30152675017661,2018,3,1
+"77","Illinois","2018-07-01","Cyberbullying",6,1.30152675017661,2018,7,1
+"78","Illinois","2018-09-01","Cyberbullying",36,1.30152675017661,2018,9,1
+"79","Illinois","2019-01-01","Cyberbullying",33,1.30152675017661,2019,1,1
+"80","Illinois","2019-03-01","Cyberbullying",43,1.30152675017661,2019,3,1
+"81","Illinois","2019-07-01","Cyberbullying",14,1.30152675017661,2019,7,1
+"82","Illinois","2019-09-01","Cyberbullying",36,1.30152675017661,2019,9,1
+"83","Illinois","2020-01-01","Cyberbullying",39,1.30152675017661,2020,1,1
+"84","Illinois","2020-03-01","Cyberbullying",21,1.30152675017661,2020,3,1
+"85","Illinois","2020-07-01","Cyberbullying",16,1.30152675017661,2020,7,1
+"86","Illinois","2020-09-01","Cyberbullying",25,1.30152675017661,2020,9,1
+"87","Illinois","2021-01-01","Cyberbullying",8,1.30152675017661,2021,1,1
+"88","Illinois","2021-03-01","Cyberbullying",12,1.30152675017661,2021,3,1
+"89","Massachusetts","2016-01-01","Cyberbullying",31,1.07152989648646,2016,1,1
+"90","Massachusetts","2016-03-01","Cyberbullying",69,1.07152989648646,2016,3,1
+"91","Massachusetts","2016-07-01","Cyberbullying",22,1.07152989648646,2016,7,1
+"92","Massachusetts","2016-09-01","Cyberbullying",42,1.07152989648646,2016,9,1
+"93","Massachusetts","2017-01-01","Cyberbullying",36,1.07152989648646,2017,1,1
+"94","Massachusetts","2017-03-01","Cyberbullying",66,1.07152989648646,2017,3,1
+"95","Massachusetts","2017-07-01","Cyberbullying",22,1.07152989648646,2017,7,1
+"96","Massachusetts","2017-09-01","Cyberbullying",40,1.07152989648646,2017,9,1
+"97","Massachusetts","2018-01-01","Cyberbullying",39,1.07152989648646,2018,1,1
+"98","Massachusetts","2018-03-01","Cyberbullying",48,1.07152989648646,2018,3,1
+"99","Massachusetts","2018-07-01","Cyberbullying",14,1.07152989648646,2018,7,1
+"100","Massachusetts","2018-09-01","Cyberbullying",30,1.07152989648646,2018,9,1
+"101","Massachusetts","2019-01-01","Cyberbullying",23,1.07152989648646,2019,1,1
+"102","Massachusetts","2019-03-01","Cyberbullying",26,1.07152989648646,2019,3,1
+"103","Massachusetts","2019-07-01","Cyberbullying",10,1.07152989648646,2019,7,1
+"104","Massachusetts","2019-09-01","Cyberbullying",29,1.07152989648646,2019,9,1
+"105","Massachusetts","2020-01-01","Cyberbullying",12,1.07152989648646,2020,1,1
+"106","Massachusetts","2020-03-01","Cyberbullying",17,1.07152989648646,2020,3,1
+"107","Massachusetts","2020-07-01","Cyberbullying",27,1.07152989648646,2020,7,1
+"108","Massachusetts","2020-09-01","Cyberbullying",29,1.07152989648646,2020,9,1
+"109","Massachusetts","2021-01-01","Cyberbullying",10,1.07152989648646,2021,1,1
+"110","Massachusetts","2021-03-01","Cyberbullying",18,1.07152989648646,2021,3,1
+"111","New Jersey","2016-01-01","Cyberbullying",45,1.62427616977438,2016,1,1
+"112","New Jersey","2016-03-01","Cyberbullying",60,1.62427616977438,2016,3,1
+"113","New Jersey","2016-07-01","Cyberbullying",13,1.62427616977438,2016,7,1
+"114","New Jersey","2016-09-01","Cyberbullying",41,1.62427616977438,2016,9,1
+"115","New Jersey","2017-01-01","Cyberbullying",47,1.62427616977438,2017,1,1
+"116","New Jersey","2017-03-01","Cyberbullying",31,1.62427616977438,2017,3,1
+"117","New Jersey","2017-07-01","Cyberbullying",12,1.62427616977438,2017,7,1
+"118","New Jersey","2017-09-01","Cyberbullying",29,1.62427616977438,2017,9,1
+"119","New Jersey","2018-01-01","Cyberbullying",37,1.62427616977438,2018,1,1
+"120","New Jersey","2018-03-01","Cyberbullying",47,1.62427616977438,2018,3,1
+"121","New Jersey","2018-07-01","Cyberbullying",9,1.62427616977438,2018,7,1
+"122","New Jersey","2018-09-01","Cyberbullying",33,1.62427616977438,2018,9,1
+"123","New Jersey","2019-01-01","Cyberbullying",18,1.62427616977438,2019,1,1
+"124","New Jersey","2019-03-01","Cyberbullying",39,1.62427616977438,2019,3,1
+"125","New Jersey","2019-07-01","Cyberbullying",4,1.62427616977438,2019,7,1
+"126","New Jersey","2019-09-01","Cyberbullying",19,1.62427616977438,2019,9,1
+"127","New Jersey","2020-01-01","Cyberbullying",22,1.62427616977438,2020,1,1
+"128","New Jersey","2020-03-01","Cyberbullying",22,1.62427616977438,2020,3,1
+"129","New Jersey","2020-07-01","Cyberbullying",10,1.62427616977438,2020,7,1
+"130","New Jersey","2020-09-01","Cyberbullying",28,1.62427616977438,2020,9,1
+"131","New Jersey","2021-01-01","Cyberbullying",10,1.62427616977438,2021,1,1
+"132","New Jersey","2021-03-01","Cyberbullying",22,1.62427616977438,2021,3,1
+"133","New York","2016-01-01","Cyberbullying",35,1,2016,1,1
+"134","New York","2016-03-01","Cyberbullying",53,1,2016,3,1
+"135","New York","2016-07-01","Cyberbullying",25,1,2016,7,1
+"136","New York","2016-09-01","Cyberbullying",35,1,2016,9,1
+"137","New York","2017-01-01","Cyberbullying",39,1,2017,1,1
+"138","New York","2017-03-01","Cyberbullying",62,1,2017,3,1
+"139","New York","2017-07-01","Cyberbullying",25,1,2017,7,1
+"140","New York","2017-09-01","Cyberbullying",40,1,2017,9,1
+"141","New York","2018-01-01","Cyberbullying",48,1,2018,1,1
+"142","New York","2018-03-01","Cyberbullying",44,1,2018,3,1
+"143","New York","2018-07-01","Cyberbullying",13,1,2018,7,1
+"144","New York","2018-09-01","Cyberbullying",23,1,2018,9,1
+"145","New York","2019-01-01","Cyberbullying",50,1,2019,1,1
+"146","New York","2019-03-01","Cyberbullying",37,1,2019,3,1
+"147","New York","2019-07-01","Cyberbullying",10,1,2019,7,1
+"148","New York","2019-09-01","Cyberbullying",29,1,2019,9,1
+"149","New York","2020-01-01","Cyberbullying",30,1,2020,1,1
+"150","New York","2020-03-01","Cyberbullying",24,1,2020,3,1
+"151","New York","2020-07-01","Cyberbullying",4,1,2020,7,1
+"152","New York","2020-09-01","Cyberbullying",25,1,2020,9,1
+"153","New York","2021-01-01","Cyberbullying",16,1,2021,1,1
+"154","New York","2021-03-01","Cyberbullying",24,1,2021,3,1
+"155","Texas","2016-01-01","Cyberbullying",31,1.24804967294494,2016,1,1
+"156","Texas","2016-03-01","Cyberbullying",32,1.24804967294494,2016,3,1
+"157","Texas","2016-07-01","Cyberbullying",12,1.24804967294494,2016,7,1
+"158","Texas","2016-09-01","Cyberbullying",49,1.24804967294494,2016,9,1
+"159","Texas","2017-01-01","Cyberbullying",40,1.24804967294494,2017,1,1
+"160","Texas","2017-03-01","Cyberbullying",37,1.24804967294494,2017,3,1
+"161","Texas","2017-07-01","Cyberbullying",15,1.24804967294494,2017,7,1
+"162","Texas","2017-09-01","Cyberbullying",50,1.24804967294494,2017,9,1
+"163","Texas","2018-01-01","Cyberbullying",40,1.24804967294494,2018,1,1
+"164","Texas","2018-03-01","Cyberbullying",32,1.24804967294494,2018,3,1
+"165","Texas","2018-07-01","Cyberbullying",11,1.24804967294494,2018,7,1
+"166","Texas","2018-09-01","Cyberbullying",47,1.24804967294494,2018,9,1
+"167","Texas","2019-01-01","Cyberbullying",33,1.24804967294494,2019,1,1
+"168","Texas","2019-03-01","Cyberbullying",25,1.24804967294494,2019,3,1
+"169","Texas","2019-07-01","Cyberbullying",13,1.24804967294494,2019,7,1
+"170","Texas","2019-09-01","Cyberbullying",33,1.24804967294494,2019,9,1
+"171","Texas","2020-01-01","Cyberbullying",25,1.24804967294494,2020,1,1
+"172","Texas","2020-03-01","Cyberbullying",18,1.24804967294494,2020,3,1
+"173","Texas","2020-07-01","Cyberbullying",5,1.24804967294494,2020,7,1
+"174","Texas","2020-09-01","Cyberbullying",36,1.24804967294494,2020,9,1
+"175","Texas","2021-01-01","Cyberbullying",13,1.24804967294494,2021,1,1
+"176","Texas","2021-03-01","Cyberbullying",17,1.24804967294494,2021,3,1
+"177","Virginia","2016-01-01","Cyberbullying",27,1.13005398966139,2016,1,1
+"178","Virginia","2016-03-01","Cyberbullying",49,1.13005398966139,2016,3,1
+"179","Virginia","2016-07-01","Cyberbullying",18,1.13005398966139,2016,7,1
+"180","Virginia","2016-09-01","Cyberbullying",20,1.13005398966139,2016,9,1
+"181","Virginia","2017-01-01","Cyberbullying",54,1.13005398966139,2017,1,1
+"182","Virginia","2017-03-01","Cyberbullying",38,1.13005398966139,2017,3,1
+"183","Virginia","2017-07-01","Cyberbullying",19,1.13005398966139,2017,7,1
+"184","Virginia","2017-09-01","Cyberbullying",29,1.13005398966139,2017,9,1
+"185","Virginia","2018-01-01","Cyberbullying",30,1.13005398966139,2018,1,1
+"186","Virginia","2018-03-01","Cyberbullying",25,1.13005398966139,2018,3,1
+"187","Virginia","2018-07-01","Cyberbullying",17,1.13005398966139,2018,7,1
+"188","Virginia","2018-09-01","Cyberbullying",41,1.13005398966139,2018,9,1
+"189","Virginia","2019-01-01","Cyberbullying",40,1.13005398966139,2019,1,1
+"190","Virginia","2019-03-01","Cyberbullying",46,1.13005398966139,2019,3,1
+"191","Virginia","2019-07-01","Cyberbullying",28,1.13005398966139,2019,7,1
+"192","Virginia","2019-09-01","Cyberbullying",35,1.13005398966139,2019,9,1
+"193","Virginia","2020-01-01","Cyberbullying",26,1.13005398966139,2020,1,1
+"194","Virginia","2020-03-01","Cyberbullying",22,1.13005398966139,2020,3,1
+"195","Virginia","2020-07-01","Cyberbullying",9,1.13005398966139,2020,7,1
+"196","Virginia","2020-09-01","Cyberbullying",24,1.13005398966139,2020,9,1
+"197","Virginia","2021-01-01","Cyberbullying",10,1.13005398966139,2021,1,1
+"198","Virginia","2021-03-01","Cyberbullying",22,1.13005398966139,2021,3,1
+"199","Washington","2016-01-01","Cyberbullying",27,1.10149091927769,2016,1,1
+"200","Washington","2016-03-01","Cyberbullying",45,1.10149091927769,2016,3,1
+"201","Washington","2016-07-01","Cyberbullying",25,1.10149091927769,2016,7,1
+"202","Washington","2016-09-01","Cyberbullying",60,1.10149091927769,2016,9,1
+"203","Washington","2017-01-01","Cyberbullying",31,1.10149091927769,2017,1,1
+"204","Washington","2017-03-01","Cyberbullying",40,1.10149091927769,2017,3,1
+"205","Washington","2017-07-01","Cyberbullying",22,1.10149091927769,2017,7,1
+"206","Washington","2017-09-01","Cyberbullying",21,1.10149091927769,2017,9,1
+"207","Washington","2018-01-01","Cyberbullying",38,1.10149091927769,2018,1,1
+"208","Washington","2018-03-01","Cyberbullying",65,1.10149091927769,2018,3,1
+"209","Washington","2018-07-01","Cyberbullying",7,1.10149091927769,2018,7,1
+"210","Washington","2018-09-01","Cyberbullying",21,1.10149091927769,2018,9,1
+"211","Washington","2019-01-01","Cyberbullying",16,1.10149091927769,2019,1,1
+"212","Washington","2019-03-01","Cyberbullying",37,1.10149091927769,2019,3,1
+"213","Washington","2019-07-01","Cyberbullying",3,1.10149091927769,2019,7,1
+"214","Washington","2019-09-01","Cyberbullying",25,1.10149091927769,2019,9,1
+"215","Washington","2020-01-01","Cyberbullying",23,1.10149091927769,2020,1,1
+"216","Washington","2020-03-01","Cyberbullying",25,1.10149091927769,2020,3,1
+"217","Washington","2020-07-01","Cyberbullying",6,1.10149091927769,2020,7,1
+"218","Washington","2020-09-01","Cyberbullying",6,1.10149091927769,2020,9,1
+"219","Washington","2021-01-01","Cyberbullying",12,1.10149091927769,2021,1,1
+"220","Washington","2021-03-01","Cyberbullying",11,1.10149091927769,2021,3,1

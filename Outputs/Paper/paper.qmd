@@ -27,6 +27,28 @@ library(palmerpenguins)
 
 You can and should cross-reference sections and sub-sections. For instance, @sec-data and @sec-first-point. 
 
+talking points
+1) why asian population? because anti-asian violence in the usa grew. we want to see if anti-asian violence was also reflected in school and cyber bullying (introduction).
+2) our replicated graphs show that bullying numbers dropped during covid, 
+3) But there wasnt a significant correlation between asian population of states and school bullying numbers
+4) do a comparison of top 10 asian vs bottom 10 asian population states to see if asian population actually matters in school bullying
+5) lack of correlation testing, this is only reported bullying, not reflected of everyone getting bullied. only those that search
+6) next steps: try asian population in certain schools instead of states? a hard comparison between asian bullying and violence?
+7) bias of only reported data (sampling) with people that only searches for bullying. ethics of using peoples search data. unreliability of measurement. not every1 uses google for searches or bullying help. google's algorithm will shift towards anti-bullying stuff for people that search for it.
+
+```{r}
+#### use this code to graph the 3 bully datas
+
+#state_bully_data |> ggplot(aes(x = date, y = sum)) + 
+ # geom_col() +
+  #theme(axis.text.x = element_text(angle = 45,hjust=1)) +
+  #labs(
+  #  x = "School Year Date Intervals",
+  #  y = "Sum of Searches by Investigated States"
+  #)
+
+```
+
 
 
 # Data {#sec-data}

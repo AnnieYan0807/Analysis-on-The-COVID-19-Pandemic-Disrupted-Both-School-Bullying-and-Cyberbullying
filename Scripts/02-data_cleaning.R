@@ -84,8 +84,37 @@ state_schbully_data <- state_schbully_data |> mutate(State.Name=recode(State.Nam
                                                                  'US-FL' = 'Florida',
                                                                  'US-VA' = 'Virginia',
                                                                  'US-MA' = 'Massachusetts'))
+#Separating the dates to filter them
+state_bully_data <- state_bully_data |> mutate(year = lubridate::year(date), 
+                                                   month = lubridate::month(date), 
+                                                   day = lubridate::day(date))
+state_cybully_data <- state_cybully_data |> mutate(year = lubridate::year(date), 
+                                               month = lubridate::month(date), 
+                                               day = lubridate::day(date))
+state_schbully_data <- state_schbully_data |> mutate(year = lubridate::year(date), 
+                                               month = lubridate::month(date), 
+                                               day = lubridate::day(date))
+
+#Selecting Jan, Mar, Jul & Sep as they represent 3 months of a school year and one summer month
+state_bully_data <- state_bully_data |> filter(month == 1 | month == 7 | month == 9 | month == 3)
+state_cybully_data <- state_cybully_data |> filter(month == 1 | month == 7 | month == 9 | month == 3)
+state_schbully_data <- state_schbully_data |> filter(month == 1 | month == 7 | month == 9 | month == 3)
+
+
+#Using data from 2016 and above
+state_bully_data <- state_bully_data |> filter(year > 2015)
+state_cybully_data <- state_cybully_data |> filter(year > 2015)
+state_schbully_data <- state_schbully_data |> filter(year > 2015)
+
+#Summarized sum by the 4 months, saved in another variable that'll solely be used to graph
+state_bully_data_sum <- state_bully_data|>group_by(date)|>summarise(sum = sum(hits))
+state_cybully_data_sum <- state_cybully_data|>group_by(date)|>summarise(sum = sum(hits))
+state_schbully_data_sum <- state_schbully_data|>group_by(date)|>summarise(sum = sum(hits))
+
 #### Save data ####
 write.csv(state_bully_data, here::here("Outputs/data/cleaned_bully_data.csv"))
 write.csv(state_cybully_data, here::here("Outputs/data/cleaned_cybully_data.csv"))
 write.csv(state_schbully_data, here::here("Outputs/data/cleaned_schbully_data.csv"))
-
+write.csv(state_bully_data_sum, here::here("Outputs/data/sum_bully_data.csv"))
+write.csv(state_cybully_data_sum, here::here("Outputs/data/sum_cybully_data.csv"))
+write.csv(state_schbully_data_sum, here::here("Outputs/data/sum_schbully_data.csv"))
