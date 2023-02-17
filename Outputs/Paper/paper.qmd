@@ -51,31 +51,36 @@ talking points
 #| echo: false
 #| warning: false
 
+library(tidyverse)
+
 #### use this code to graph the 3 bully datas ####
 
 sum_bully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
-  theme(axis.text.x = element_text(angle = 45,hjust=1)) +
+  theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black")) +
   labs(
-    title = "Sum of All Bullying",
-    x = "School Year Date Intervals",
-    y = "Sum of Searches by Investigated States"
+    title = "All 'Bullying' Searches in High Asian Population States",
+    x = "Date",
+    y = "Total Searches"
   )
 sum_cybully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
-  theme(axis.text.x = element_text(angle = 45,hjust=1)) +
+  theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black")) +
   labs(
-    title = "Sum of Cyberbullying",
-    x = "School Year Date Intervals",
-    y = "Sum of Searches by Investigated States"
+    title = "'Cyberbullying' Searches in High Asian Population States",
+    x = "Date",
+    y = "Total Searches"
   )
 sum_schbully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
-  theme(axis.text.x = element_text(angle = 45,hjust=1)) +
+  theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black")) +
   labs(
-    title = "Sum of School Bullying",
-    x = "School Year Date Intervals",
-    y = "Sum of Searches by Investigated States"
+    title = "'School Bullying' Searches in High Asian Population States",
+    x = "Date",
+    y = "Total Searches"
   )
 
 ```
