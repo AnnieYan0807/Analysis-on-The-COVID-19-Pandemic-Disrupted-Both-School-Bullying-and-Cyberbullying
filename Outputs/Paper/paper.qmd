@@ -1,10 +1,11 @@
 ---
-title: "The Rising Return to Non Cognitive Skill"
+title: "Analysis on The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying"
 subtitle: "My subtitle if needed"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: LINK."
+  - Will Davidson
+  - Jason Ngo
+  - Annie Yan
+thanks: "Code and data are available at: https://github.com/AnnieYan0807/Analysis-on-The-COVID-19-Pandemic-Disrupted-Both-School-Bullying-and-Cyberbullying."
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
@@ -18,32 +19,38 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 
+# read cleaned data
 library(tidyverse)
 
 sum_bully_data <- read.csv(here::here("Outputs/data/sum_bully_data.csv"))
 sum_cybully_data <- read.csv(here::here("Outputs/data/sum_cybully_data.csv"))
 sum_schbully_data <- read.csv(here::here("Outputs/data/sum_schbully_data.csv"))
-```
 
+cleaned_bully_data <- read.csv(here::here("Outputs/data/cleaned_schbully_data.csv"))
+cleaned_cybully_data <- read.csv(here::here("Outputs/data/cleaned_schbully_data.csv"))
+cleaned_schbully_data <- read.csv(here::here("Outputs/data/cleaned_schbully_data.csv"))
+
+# read nationwide data for discussion point 2
+sum_national_schbully_data <- read.csv(here::here("Outputs/data/sum_national_schbully_data.csv"))
+```
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. For instance, @sec-data and @sec-first-point. 
+You can and should cross-reference sections and sub-sections. For instance, @sec-data and @sec-first-point.
 
-talking points
-1) why asian population? because anti-asian violence in the usa grew. we want to see if anti-asian violence was also reflected in school and cyber bullying (introduction). (will)
+talking points 1) why asian population? because anti-asian violence in the usa grew. we want to see if anti-asian violence was also reflected in school and cyber bullying (introduction). (will)
 
-2) our replicated graphs show that bullying numbers dropped during covid, (wil)
+2)  our replicated graphs show that bullying numbers dropped during covid, (wil)
 
-3) But there wasnt a significant correlation between asian population of states and school bullying numbers (annie)
+3)  But there wasnt a significant correlation between asian population of states and school bullying numbers (annie)
 
-4) do a comparison of top 10 asian vs bottom 10 asian population states to see if asian population actually matters in school bullying (jason)
+4)  do a comparison of top 10 asian vs bottom 10 asian population states to see if asian population actually matters in school bullying (jason)
 
-5) lack of correlation testing, this is only reported bullying, not reflected of everyone getting bullied. only those that search (annie)
+5)  lack of correlation testing, this is only reported bullying, not reflected of everyone getting bullied. only those that search (annie)
 
-6) next steps: try asian population in certain schools instead of states? a hard comparison between asian bullying and violence? (annie)
+6)  next steps: try asian population in certain schools instead of states? a hard comparison between asian bullying and violence? (annie)
 
-7) bias of only reported data (sampling) with people that only searches for bullying. ethics of using peoples search data. unreliability of measurement. not every1 uses google for searches or bullying help. google's algorithm will shift towards anti-bullying stuff for people that search for it. (will)
+7)  bias of only reported data (sampling) with people that only searches for bullying. ethics of using peoples search data. unreliability of measurement. not every1 uses google for searches or bullying help. google's algorithm will shift towards anti-bullying stuff for people that search for it. (will)
 
 ```{r}
 #| label: bullydata
@@ -55,122 +62,141 @@ library(tidyverse)
 
 #### use this code to graph the 3 bully datas ####
 
-sum_bully_data |> ggplot(aes(x = date, y = sum)) + 
+cleaned_bully_data |> ggplot(aes(x = date, 
+                                    y = hits,
+                                    fill = State.Name)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
-        axis.line = element_line(colour = "black")) +
+        axis.line = element_line(colour = "black"),
+        title = element_text(size = 8)) +
   labs(
     title = "All 'Bullying' Searches in High Asian Population States",
     x = "Date",
-    y = "Total Searches"
+    y = "Search Frequency",
+    fill = "State Name"
   )
-sum_cybully_data |> ggplot(aes(x = date, y = sum)) + 
+
+cleaned_cybully_data |> ggplot(aes(x = date, 
+                                    y = hits,
+                                    fill = State.Name)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
-        axis.line = element_line(colour = "black")) +
+        axis.line = element_line(colour = "black"),
+        title = element_text(size = 8)) +
   labs(
     title = "'Cyberbullying' Searches in High Asian Population States",
     x = "Date",
-    y = "Total Searches"
+    y = "Search Frequency",
+    fill = "State Name"
   )
-sum_schbully_data |> ggplot(aes(x = date, y = sum)) + 
+
+cleaned_schbully_data |> ggplot(aes(x = date, 
+                                    y = hits,
+                                    fill = State.Name)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
-        axis.line = element_line(colour = "black")) +
+        axis.line = element_line(colour = "black"),
+        title = element_text(size = 8)) +
   labs(
     title = "'School Bullying' Searches in High Asian Population States",
     x = "Date",
-    y = "Total Searches"
+    y = "Search Frequency",
+    fill = "State Name"
   )
 
 ```
 
+# Data
 
+## Data collection
 
-# Data {#sec-data}
-
-Our data is of penguins (@fig-bills).
-
-```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk more about it.
-
-Also bills and their average (@fig-billssssss). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work.)
-
-```{r}
-#| label: fig-billssssss
-#| fig-cap: More bills of penguins
-#| echo: false
-#| fig-width: 8
-#| fig-height: 4
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk way more about it. 
-
-
-
-# Model
-
-$$
-Pr(\theta | y) = \frac{Pr(y | \theta) Pr(\theta)}{Pr(y)}
-$$ {#eq-bayes}
-
-@eq-bayes seems useful, eh?
-
-Here's a dumb example of how to use some references: In paper we run our analysis in `R` [@citeR]. We also use the `tidyverse` which was written by @thereferencecanbewhatever If we were interested in baseball data then @citeLahman could be useful. 
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
-
+## Measurements
 
 # Results
 
 # Discussion
 
-## First discussion point {#sec-first-point}
+## First discussion point
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
 
-## Second discussion point
+## Correlation between asian population of states and school bullying numbers
+
+As discussed earlier, there has been a significant increase in anti-Asian culture in the United States over the past year. Many may be attributed to the spread of misinformation and xenophobic rhetoric related to the COVID-19 pandemic, which has stoked hatred against Asian communities. Reports show that 81% of Asian adults state violence against them is increasing. Over 3800 hate-related verbal and physical assaults against Asian Americans have been reported during the pandemic.
+
+This culture of anti-Asian violence has also impacted schools, with many Asian students reporting incidents of racism and discrimination in the classroom. Reports show 68% of attacks were verbal harassment. Some students may have faced racially discriminated comments, while others may have experienced exclusion or isolation from their peers. These reports have drawn our attention. We are eager to learn if there is a need to increase education and awareness among students, as well as efforts to combat racism and discrimination in all forms.
+
+We conducted a study to determine if there was a correlation between the increasing anti-Asian sentiment and school bullying in the United States. To do this, we analyzed the correlation between the search frequency for the term "school bullying" and the Asian population of each state. Figures 2 and 3 were used to compare the search frequency of the keyword "school bullying" and the date.
+
+```{r}
+#| label: School bullying searches in top 10 states with highest asian population
+#| fig-cap: School bullying searches in top 10 states with highest asian population
+#| echo: false
+#| warning: false
+
+
+library(tidyverse)
+
+cleaned_schbully_data |> ggplot(aes(x = date, 
+                                    y = hits,
+                                    fill = State.Name)) + 
+  geom_col() +
+  labs(
+    title = "'School Bullying' Searches in High Asian Population States",
+    x = "Date",
+    y = "Search Frequency",
+    fill = "State Name",
+    cex.fill = 1
+    )+
+    theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black"),
+        title = element_text(size = 8) ) 
+```
+
+Figure 2 shows the frequency of the keyword "school bullying" searched online within the top ten states with the highest Asian population. The graph indicates that March 1st, 2018, had the highest number of searches for "school bullying" at over 400. Typically, the search frequency for "school bullying" is highest in March, and there is a significant drop in search frequency every July at approximately 150 searches when summer vacation is halfway through. In contrast, data for September and January are relatively closer to the average, ranging from 150 to 300.
+
+```{r}
+#| label: School bullying searches nationwide
+#| fig-cap: School bullying searches nationwide
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+
+sum_national_schbully_data |> ggplot(aes(x = date, y = sum)) + 
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black")) +
+  labs(
+    title = "'School Bullying' Searches Nationwide",
+    x = "Date",
+    y = "Search Frequency"
+  )
+
+```
+
+Figure 3 presents data on the search frequency of the keyword "school bullying" nationally since 2016. Like Figure 2, March 1st, 2018, had the highest search frequency at 2000 nationally. On the other hand, July's search frequency was always at the lowest level, with data from 2016 to 2021 never exceeding 750. September and January have a similar level of search frequency ranging from 750 to 1500, which is closer to the overall average. In terms of trends, the search frequency with respect to date was relatively consistent in both the top ten states with the highest Asian population and nationwide. Based on our analysis, we did not find a correlation between school bullying searches and the Asian population of the state.
+
+Upon comparing Figure 2 and Figure 3, we observed a consistent trend. Notably, the months of January and September, which mark the beginning of school, exhibit comparable search frequency levels for the keyword "school bullying." Meanwhile, March, which falls in the middle of the semester, experiences a significant surge in search frequency, as seen in both national data and the top ten states with the highest Asian population. On the other hand, July, which is in the middle of summer break, displays a considerable drop in search frequency in both graphs. Overall, the trend in search frequency with respect to date remains relatively consistent across the top ten states with the highest Asian population and the entire nation. Therefore, the comparison of these two graphs did not establish any significant correlation.
+
+In summary, by comparing trends in two graphs, our investigation did not reveal any correlation between the Asian population of a state and the frequency of searches related to school bullying. While anti-Asian culture is still a large concern in the U.S., it does not seem to have a direct impact on school bullying. It is possible that factors like school policies, awareness campaigns, and changes in social media usage have made a positive impact on preventing discrimination and stereotyping from happening.
 
 ## Third discussion point
 
-## Weaknesses and next steps
+## Weaknesses
 
-Weaknesses and next steps should also be included.
+While our study provides some insights into the search frequency of school bullying and its correlation with the Asian population, it has several limitations. Firstly, we only looked at the search frequency of the keyword "school bullying" and did not consider other related search terms or social media platforms, which may not fully capture the prevalence of school bullying in schools. Secondly, we did not control for other variables, such as socioeconomic status, which may also impact the prevalence of school bullying. Lastly, as we only analyzed data up until 2021, our study may not reflect any potential changes in search behavior or trends in recent months or years. These limitations should be taken into consideration when interpreting our findings and drawing conclusions.
+
+Furthermore, we did not perform any correlation testing to establish a relationship between the Asian population and the search frequency of "school bullying" accurately. We simply compared the search frequency of the top ten states with the highest Asian population and nationwide data. To determine if there is a statistically significant relationship between the two variables, a formal correlation test is required. However, it is also important to note that correlation does not mean causation. Even if the search frequency of "school bullying" and the Asian population in a state are significantly correlated, it does not imply that the increasing incidence of school bullying is caused by a high Asian population or that anti-Asian culture impacts school campuses. Other factors, such as confounding variables or common causes, may influence the observed relationship. As a result, further studies are needed to examine the impact of anti-Asian culture on school bullying.
+
+In conclusion, our study has some limitations that should be taken into account when interpreting our results. Although we provide some insights into the correlation between the Asian population and the search frequency of "school bullying," future research is required to investigate the potential causes of school bullying, particularly those related to anti-Asian culture.
+
+## Next steps
+
+As discussed above, further studies are crucial for our studies. Some potential steps include establishing more in-depth data analysis, adding more control variables, and conducting formal correlation tests. To establish a more in-depth data analysis on school bullying and its relationship with the Asian population, we suggest introducing more factors that relate to school bullying, such as other related search terms and various social media, to provide a more complete picture of the issue. Adding more control variables is another direction to further testing school bullying and its relationship with the Asian population. Age range, race, gender, or even socioeconomic status all can influence school bullying. Taking these factors into consideration can help us to identify potential areas for intervention. Furthermore, it is important to conduct formal correlation tests to determine the statistical significance of the relationship between school bullying and the Asian population. Gathering more data, such as Asian population in different states, can be helpful in this regard. The correlation coefficient can be calculated to determine the strength and direction of the relationship between the two variables. Besides, additional research is necessary to identify the underlying factors driving the relationship between school bullying and the Asian population.
+
+## Bias
 
 \newpage
-
-\appendix
-
-# Appendix {-}
-
-
-# Additional details
-
-
-\newpage
-
 
 # References
-
-

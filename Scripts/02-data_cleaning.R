@@ -15,13 +15,25 @@ library(lubridate)
 
 #### Clean data ####
 # [...UPDATE THIS...]
-#raw_data <- read_csv("inputs/data/raw_data.csv")
 
-#cleaned_data <- 
-#  raw_data |> select (state,date,year,month,
-#                      cy_bly,sch_bly,sch_cy_bly,sch_cy_bly_sum,
-#                      yrbs_bly_sch,yrbs_bly_cyb,yrbs_bly_avg,
-#                      avg_t,avg_v,pop2019)
+##National wide data##
+#create new dataset: national schbully data 
+national_schbully_data <- state_schbully_data
+national_schbully_data <- national_schbully_data |> mutate(keyword=recode(keyword, '%2Fm%2F03m50g4' = 'School Bullying'))
+national_schbully_data <- national_schbully_data |> rename(Location = dma_json_code)
+national_schbully_data <- national_schbully_data |> mutate(year = lubridate::year(date), 
+                                                     month = lubridate::month(date), 
+                                                     day = lubridate::day(date))
+national_schbully_data <- national_schbully_data |> filter(month == 1 | month == 7 | month == 9 | month == 3)
+national_schbully_data <- national_schbully_data |> filter(year > 2015)
+national_schbully_data_sum <- national_schbully_data|>group_by(date)|>summarise(sum = sum(hits))
+write.csv(national_schbully_data_sum, here::here("Outputs/data/sum_national_schbully_data.csv"))
+write.csv(national_schbully_data, here::here("Outputs/data/cleaned_national_schbully_data.csv"))
+
+
+
+
+## Top 10 states with highest asian population ##
 
 #Filter by states with the 10 highest Asian Populations
 #California, New York, Texas, New Jersey, Washington
@@ -111,6 +123,7 @@ state_schbully_data <- state_schbully_data |> filter(year > 2015)
 state_bully_data_sum <- state_bully_data|>group_by(date)|>summarise(sum = sum(hits))
 state_cybully_data_sum <- state_cybully_data|>group_by(date)|>summarise(sum = sum(hits))
 state_schbully_data_sum <- state_schbully_data|>group_by(date)|>summarise(sum = sum(hits))
+
 
 #### Save data ####
 write.csv(state_bully_data, here::here("Outputs/data/cleaned_bully_data.csv"))
