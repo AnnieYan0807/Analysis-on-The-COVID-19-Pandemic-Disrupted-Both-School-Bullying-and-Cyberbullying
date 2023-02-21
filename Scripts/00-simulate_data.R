@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Simulates The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying
+# Purpose: Create a simulation of a dataset expected to be seen in the replicated paper.
 # Author: Annie Yan, Will Davidson, Jason Ngo
 # Data: 15 February 2023 
 # Contact: yanzixin0807@gmail.com
