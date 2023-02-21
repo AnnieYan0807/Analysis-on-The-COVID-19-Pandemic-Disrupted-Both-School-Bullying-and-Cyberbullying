@@ -46,28 +46,29 @@ sum_national_schbully_data <- read.csv(here::here("Outputs/data/sum_national_sch
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. For instance, @sec-data and @sec-first-point.
-
-talking points 1) why asian population? because anti-asian violence in the usa grew. we want to see if anti-asian violence was also reflected in school and cyber bullying (introduction). (will)
-
-2)  our replicated graphs show that bullying numbers dropped during covid, (wil)
-
-3)  But there wasnt a significant correlation between asian population of states and school bullying numbers (annie)
-
-4)  do a comparison of top 10 asian vs bottom 10 asian population states to see if asian population actually matters in school bullying (jason)
-
-5)  lack of correlation testing, this is only reported bullying, not reflected of everyone getting bullied. only those that search (annie)
-
-6)  next steps: try asian population in certain schools instead of states? a hard comparison between asian bullying and violence? (annie)
-
-7)  bias of only reported data (sampling) with people that only searches for bullying. ethics of using peoples search data. unreliability of measurement. not every1 uses google for searches or bullying help. google's algorithm will shift towards anti-bullying stuff for people that search for it. (will)
+Anti-Asian violence skyrocketed over the pandemic. The Center for the Study of Hate and Extremism published a report showing how anti-Asian hate crimes grew by 339 percent last year compared to the year before. The racism was fueled by the pandemic, mainly occurring in highly populated urban cities like New York, San Francisco, and Los Angeles. The percentages of Asian hate crimes in New York rose from 30 to 133 and in San Francisco from 9 to 60. American culture pretends Asian Americans face no discrimination or racism. There are countless examples where when the U.S. was faced with an economic downturn, Asian Americans were affected. The 1982 killing of Vincent Chin in Detroit came after the 1980-1982 Detroit recession and The Page Act of 1875, America's first immigration law that banned Chinese women after the Great Panic of 1873. It's safe to assume an economic horror like the pandemic would lead to hate. It was disconcerting reading about the different hate acts that occurred, and it was clear there needed to be culturally appropriate and accessible community safety programs. From the data provided, we decided to clean it, focusing on the states with an Asian population. There has been mainstream media coverage of anti-Asian racism but little effort toward the Asian American Youth.
 
 ## Estimand
 In the study, our estimated population vary for different datasets. The population of the data used in figures 1, 2, 3, and 4 contains people who live in the top ten states with the highest Asian population. These states includes California, Florida, Hawaii, Illinois, Massachusetts, New Jersey, New York, Texas, Virginia, and Washington. (@cit3) Nationwide data includes population of all people who live in the United States. 
 
+# Data
+
+## Data collection
+
+The data used in this study were pulled from reproducible package of article "Data and code for: The COVID-19 pandemic disrupted both school bullying and cyberbullying." (@cit4) According to the article, raw data were provided from Google Trends and Youth Risk Behavior Survey. 
+
+To analysis these data, R programming language (@citeR), tidyverse (@citeTidyverse), and dplyr (@citedplyr) are used. ggplot2 (@citeggplot2) has been used in order to produce graphic reports. The use of knitr (@citeknitr) helped us to generate tables. Lubridate (@citelubridate) are used to reformat dates. 
+
+## Measurements
+All the data we used is from after 2016. In our study, bullying data includes school bullying data and cyberbullying data. We measure the intensity of bullying by number of hits in one day. In the paper, we will refer it as search frequency. 
+
+## Data Analysis
+
+### Bullying search droped after COVID-19 
+
 ```{r}
-#| label: bullydata
-#| fig-cap: 3 graphs lol
+#| label: All Bullying Searches in High Asian Population States
+#| fig-cap: All Bullying Searches in High Asian Population States
 #| echo: false
 #| warning: false
 
@@ -86,7 +87,14 @@ sum_bully_data |> ggplot(aes(x = date, y = sum)) +
     y = "Search Frequency",
     fill = "State Name"
   )
+```
 
+```{r}
+#| label: Cyberbullying Searches in High Asian Population States
+#| fig-cap: Cyberbullying Searches in High Asian Population States
+#| echo: false
+#| warning: false
+library(tidyverse)
 sum_cybully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
@@ -98,7 +106,14 @@ sum_cybully_data |> ggplot(aes(x = date, y = sum)) +
     y = "Search Frequency",
     fill = "State Name"
   )
+```
 
+```{r}
+#| label: School Bullying Searches in High Asian Population States
+#| fig-cap: School Bullying Searches in High Asian Population States
+#| echo: false
+#| warning: false
+library(tidyverse)
 sum_schbully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
@@ -115,29 +130,7 @@ sum_schbully_data |> ggplot(aes(x = date, y = sum)) +
 
 Figure 1 shows the number of Google hits for all 'bullying' searches in the top ten states with the highest Asian populations. According to Bacher-Hicks, there is a positive correlation between search intensity and frequency of victimization (Bacher-Hicks, 8). While unusually high peaks occur during March 2017 and 2018 with the frequency reaching 400, and the lowest clicks during summer months with numbers consistently below 200, the overall trend from 2016 to the start of the pandemic shows an overall decline. In 2020, when the pandemic began well known to the public, there continues to be a decline in overall search intensity. On average the 2020 frequency was lower than in previous years. This was the same time period when most schools were shut down and classes were offered online which could lead to the conclusion that bullying decreased when students were not attending classes in person. There is a slight rise in the summer of 2020 that is compared to the 2016 data and a reverse of the declining trends seen over the years, however, the following summer this number is reduced to the lowest number seen over the years. This blimp at the start of the pandemic could be a result of students being in lock down with more online time. Overall, the trend in search frequency and therefore, victimization, has been relatively stable with a slight decline up to the start of the pandemic and then we see further declines as a result of online learning, school closures and isolation during COVID-19. This graph shows there was no increase in bullying of Asian students by their peers during the pandemic in the top ten states with high Asian populations.
 
-# Data
-
-## Data collection
-
-The data used in this study were pulled from reproducible package of article "Data and code for: The COVID-19 pandemic disrupted both school bullying and cyberbullying." (@cit4) According to the article, raw data were provided from Google Trends and Youth Risk Behavior Survey. 
-
-To analysis these data, R programming language (@citeR), tidyverse (@citeTidyverse), and dplyr (@citedplyr) are used. ggplot2 (@citeggplot2) has been used in order to produce graphic reports. The use of knitr (@citeknitr) helped us to generate tables. Lubridate (@citelubridate) are used to reformat dates. 
-
-## Measurements
-All the data we used is from after 2016. In our study, bullying data includes school bullying data and cyberbullying data. We measure the intensity of bullying by number of hits in one day. In the paper, we will refer it as search frequency. 
-
-## Data Analysis
-
-### bullying number droped after covid
-
 ### Correlation between asian population of states and school bullying numbers 
-
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
-
-## Correlation between asian population of states and school bullying numbers
-
-Anti-Asian violence skyrocketed over the pandemic. The Center for the Study of Hate and Extremism published a report showing how anti-Asian hate crimes grew by 339 percent last year compared to the year before. The racism was fueled by the pandemic, mainly occurring in highly populated urban cities like New York, San Francisco, and Los Angeles. The percentages of Asian hate crimes in New York rose from 30 to 133 and in San Francisco from 9 to 60. American culture pretends Asian Americans face no discrimination or racism. There are countless examples where when the U.S. was faced with an economic downturn, Asian Americans were affected. The 1982 killing of Vincent Chin in Detroit came after the 1980-1982 Detroit recession and The Page Act of 1875, America's first immigration law that banned Chinese women after the Great Panic of 1873. It's safe to assume an economic horror like the pandemic would lead to hate. It was disconcerting reading about the different hate acts that occurred, and it was clear there needed to be culturally appropriate and accessible community safety programs. From the data provided, we decided to clean it, focusing on the states with an Asian population. There has been mainstream media coverage of anti-Asian racism but little effort toward the Asian American Youth. (could be apart of introduction)
-
 
 As discussed earlier, there has been a significant increase in anti-Asian culture in the United States over the past year. Many may be attributed to the spread of misinformation and xenophobic rhetoric related to the COVID-19 pandemic, which has stoked hatred against Asian communities. Reports show that 81% of Asian adults state violence against them is increasing. Over 3800 hate-related verbal and physical assaults against Asian Americans have been reported during the pandemic.
 
@@ -196,7 +189,7 @@ Figure 5 presents data on the search frequency of the keyword "school bullying" 
 
 Upon comparing Figure 4 and Figure 5, we observed a consistent trend. Notably, the months of January and September, which mark the beginning of school, exhibit comparable search frequency levels for the keyword "school bullying." Meanwhile, March, which falls in the middle of the semester, experiences a significant surge in search frequency, as seen in both national data and the top ten states with the highest Asian population. On the other hand, July, which is in the middle of summer break, displays a considerable drop in search frequency in both graphs. Overall, the trend in search frequency with respect to date remains relatively consistent across the top ten states with the highest Asian population and the entire nation. Therefore, the comparison of these two graphs did not establish any significant correlation.
 
-### compare top 10 and bottom 10
+### Comparing top 10 with highest Asian population and bottom 10 states with lowest Asian population
 
 ```{r}
 #| label: lowaspgraph
@@ -245,13 +238,12 @@ Figure 6 shows the bullying searches in states with the bottom 10 Asian populati
 
 However, one weakness of this comparison is that there is sampling bias with this set. The total population numbers for the bottom 10 Asian population states are dwarfed by the total population numbers of the top 10 Asian population states. So naturally, there would be less bullying searches in a state like Montana, which has around 2.7% of California's total population. This is where our approach of using raw search data reaches it's limit, as we cannot draw an accurate comparison of search ratios due to the massive difference in total population numbers.
 
-
 # Results
 
 
 
 # Discussion
-## First discussion point
+## Bullying search relate to COVID-19 
 
 If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
 
@@ -263,7 +255,7 @@ This culture of anti-Asian violence has also impacted schools, with many Asian s
 
 In the previous section, our investigation did not reveal any correlation between the Asian population of a state and the frequency of searches related to school bullying by comparing trends in two graphs. While anti-Asian culture is still a large concern in the U.S., it does not seem to have a direct impact on school bullying. It is possible that factors like school policies, awareness campaigns, and changes in social media usage have made a positive impact on preventing discrimination and stereotyping from happening.
 
-## Third discussion point
+## Comparing top 10 with highest Asian population and bottom 10 states with lowest Asian population
 
 # Weaknesses
 
@@ -282,5 +274,7 @@ As discussed above, further studies are crucial for our studies. Some potential 
 Google's reported data doesn't consider the sample of users or data points. There is an evident sample bias that takes occurs in this study. The general population can be under or overrepresented. It's unsure which students' searches are being used, making their age and ethnicity unclear. The broad population must be represented and used in our data. User behavior is measured by how many hits particular buzzword use. This measurement can be flawed as students may search other buzzwords or not use the internet to gather research on bullying and how to receive help. Google may only report positive trends and ignore negative ones leaving the data skewed. 
 
 People have the fundamental right to privacy in all aspects of life. When on the internet, the average individual is dealing with information about their personal life, health, and sensitive topics they may not want to be shared. When choosing what data to report on, Google must be aware of this and careful that they're not impinging on the fundamental human right of privacy. There needs to be more information out there to educate the public on how their information is being used. The average citizen must be aware that their data is collected and used for reports. Hackers are constantly trying to infiltrate and use users' information for their gain. Security measures need to be introduced to protect search data from unauthorized access. The results an individual gets based on their search relate to their demographic and algorithm. Our dataset needs to be looked at with this in mind. An ethical lens must always be used when looking at people's search data to prevent discriminatory practices.
+
+\newpage  
 
 # References
