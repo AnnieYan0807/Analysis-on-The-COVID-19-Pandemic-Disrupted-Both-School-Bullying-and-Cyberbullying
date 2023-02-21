@@ -1,6 +1,5 @@
 ---
-title: "Analysis on The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying"
-subtitle: "My subtitle if needed"
+title: "The COVID-19 Pandemic impact on bullying search intensity relate with Asian population"
 author: 
   - Will Davidson
   - Jason Ngo
