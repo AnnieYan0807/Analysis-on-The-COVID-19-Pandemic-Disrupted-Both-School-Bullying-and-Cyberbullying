@@ -62,9 +62,7 @@ library(tidyverse)
 
 #### use this code to graph the 3 bully datas ####
 
-cleaned_bully_data |> ggplot(aes(x = date, 
-                                    y = hits,
-                                    fill = State.Name)) + 
+sum_bully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
         axis.line = element_line(colour = "black"),
@@ -76,9 +74,7 @@ cleaned_bully_data |> ggplot(aes(x = date,
     fill = "State Name"
   )
 
-cleaned_cybully_data |> ggplot(aes(x = date, 
-                                    y = hits,
-                                    fill = State.Name)) + 
+sum_cybully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
         axis.line = element_line(colour = "black"),
@@ -90,9 +86,7 @@ cleaned_cybully_data |> ggplot(aes(x = date,
     fill = "State Name"
   )
 
-cleaned_schbully_data |> ggplot(aes(x = date, 
-                                    y = hits,
-                                    fill = State.Name)) + 
+sum_schbully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
   theme(axis.text.x = element_text(angle = 45,hjust=1), 
         axis.line = element_line(colour = "black"),
