@@ -21,9 +21,9 @@ library(haven)
 
 # Locally save the downloaded data in the project space
 Unclean_data <- read.csv(here::here("Inputs/data/raw_data.csv"))
-state_bully_data <- read.csv(here::here("Inputs/data/2021_03_30_monthly_2012_2021_state_bullying_topic.csv"))
-state_cybully_data <- read.csv(here::here("Inputs/data/2021_03_30_monthly_2012_2021_state_cyb_bullying_topic.csv"))
-state_schbully_data <- read.csv(here::here("Inputs/data/2021_03_30_monthly_2012_2021_state_sch_bullying_topic.csv"))
+state_bully_data_raw <- read.csv(here::here("Inputs/data/2021_03_30_monthly_2012_2021_state_bullying_topic.csv"))
+state_cybully_data_raw <- read.csv(here::here("Inputs/data/2021_03_30_monthly_2012_2021_state_cyb_bullying_topic.csv"))
+state_schbully_data_raw <- read.csv(here::here("Inputs/data/2021_03_30_monthly_2012_2021_state_sch_bullying_topic.csv"))
 demographic_data <- read.csv(here::here("Inputs/data/sc-est2019-agesex-civ.csv"))
 
          

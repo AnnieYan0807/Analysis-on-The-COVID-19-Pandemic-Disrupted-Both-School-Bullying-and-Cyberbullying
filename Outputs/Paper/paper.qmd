@@ -22,6 +22,7 @@ bibliography: references.bib
 # read cleaned data
 library(tidyverse)
 
+#Reading data for top 10 asian population
 sum_bully_data <- read.csv(here::here("Outputs/data/sum_bully_data.csv"))
 sum_cybully_data <- read.csv(here::here("Outputs/data/sum_cybully_data.csv"))
 sum_schbully_data <- read.csv(here::here("Outputs/data/sum_schbully_data.csv"))
@@ -29,6 +30,15 @@ sum_schbully_data <- read.csv(here::here("Outputs/data/sum_schbully_data.csv"))
 cleaned_bully_data <- read.csv(here::here("Outputs/data/cleaned_schbully_data.csv"))
 cleaned_cybully_data <- read.csv(here::here("Outputs/data/cleaned_schbully_data.csv"))
 cleaned_schbully_data <- read.csv(here::here("Outputs/data/cleaned_schbully_data.csv"))
+
+#Reading data for bot 10 asian population
+sum_bully_lowasp_data <- read.csv(here::here("Outputs/data/sum_bully_lowasp_data.csv"))
+sum_cybully_lowasp_data <- read.csv(here::here("Outputs/data/sum_cybully_lowasp_data.csv"))
+sum_schbully_lowasp_data <- read.csv(here::here("Outputs/data/sum_schbully_lowasp_data.csv"))
+
+cleaned_bully_lowasp_data <- read.csv(here::here("Outputs/data/cleaned_schbully_lowasp_data.csv"))
+cleaned_cybully_lowasp_data <- read.csv(here::here("Outputs/data/cleaned_schbully_lowasp_data.csv"))
+cleaned_schbully_lowasp_data <- read.csv(here::here("Outputs/data/cleaned_schbully_lowasp_data.csv"))
 
 # read nationwide data for discussion point 2
 sum_national_schbully_data <- read.csv(here::here("Outputs/data/sum_national_schbully_data.csv"))
@@ -110,7 +120,7 @@ sum_schbully_data |> ggplot(aes(x = date, y = sum)) +
 
 The data used in this study were pulled from reproducible package of article "Data and code for: The COVID-19 pandemic disrupted both school bullying and cyberbullying." (@cit4) According to the article, raw data were provided from Google Trends and Youth Risk Behavior Survey. 
 
-To analysis these data, R programing language (@citeR), tidyverse (@citeTidyverse), and dplyr (@citedplyr) are used. ggplot2 (@citeggplot2) has been used in order to produce graphic reports. The use of knitr (@citeknitr) helped us to generate tables. Lubridate (@citelubridate) are used to reformat dates. 
+To analysis these data, R programming language (@citeR), tidyverse (@citeTidyverse), and dplyr (@citedplyr) are used. ggplot2 (@citeggplot2) has been used in order to produce graphic reports. The use of knitr (@citeknitr) helped us to generate tables. Lubridate (@citelubridate) are used to reformat dates. 
 
 ## Measurements
 All the data we used is from after 2016. In our study, bullying data includes school bullying data and cyberbullying data. We measure the intensity of bullying by number of hits in one day. In the paper, we will refer it as search frequency. 
@@ -176,7 +186,52 @@ Upon comparing Figure 4 and Figure 5, we observed a consistent trend. Notably, t
 
 ### compare top 10 and bottom 10
 
+```{r}
+#| label: lowaspgraph
+#| fig-cap: Bullying searches in the lowest Asian population states.
+#| echo: false
+#| warning: false
 
+sum_bully_lowasp_data |> ggplot(aes(x = date, y = sum)) + 
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black"),
+        title = element_text(size = 8)) +
+  labs(
+    title = "All 'Bullying' Searches in Low Asian Population States",
+    x = "Date",
+    y = "Search Frequency",
+    fill = "State Name"
+  )
+
+sum_cybully_lowasp_data |> ggplot(aes(x = date, y = sum)) + 
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black"),
+        title = element_text(size = 8)) +
+  labs(
+    title = "'Cyberbullying' Searches in Low Asian Population States",
+    x = "Date",
+    y = "Search Frequency",
+    fill = "State Name"
+  )
+
+sum_schbully_lowasp_data |> ggplot(aes(x = date, y = sum)) + 
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45,hjust=1), 
+        axis.line = element_line(colour = "black"),
+        title = element_text(size = 8)) +
+  labs(
+    title = "'School Bullying' Searches in Low Asian Population States",
+    x = "Date",
+    y = "Search Frequency",
+    fill = "State Name"
+  )
+```
+
+Figure 6 shows the bullying searches in states with the bottom 10 Asian population. In all three metrics, there is a decrease in bullying searches in comparison to bullying searches in the top 10 states. The data shows that having a high population of Asian people did have an effect on school bullying searches during the pandemic. The higher the Asian population, the more bullying searches there were.
+
+However, one weakness of this comparison is that there is sampling bias with this set. The total population numbers for the bottom 10 Asian population states are dwarfed by the total population numbers of the top 10 Asian population states. So naturally, there would be less bullying searches in a state like Montana, which has around 2.7% of California's total population. This is where our approach of using raw search data reaches it's limit, as we cannot draw an accurate comparison of search ratios due to the massive difference in total population numbers.
 
 
 # Results
