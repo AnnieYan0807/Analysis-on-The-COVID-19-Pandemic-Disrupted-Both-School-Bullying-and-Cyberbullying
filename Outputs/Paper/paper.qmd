@@ -1,5 +1,5 @@
 ---
-title: "The COVID-19 Pandemic impact on bullying search intensity relate with Asian population"
+title: "The COVID-19 Pandemic's Impact on Bullying Search Intensity with respect to Asian Population"
 author: 
   - Will Davidson
   - Jason Ngo
