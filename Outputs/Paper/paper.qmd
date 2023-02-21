@@ -113,10 +113,6 @@ sum_cybully_data |> ggplot(aes(x = date, y = sum)) +
 
 ### Correlation between asian population of states and school bullying numbers 
 
-As discussed earlier, there has been a significant increase in anti-Asian culture in the United States over the past year. Many may be attributed to the spread of misinformation and xenophobic rhetoric related to the COVID-19 pandemic, which has stoked hatred against Asian communities. Reports show that 81% of Asian adults state violence against them is increasing. Over 3800 hate-related verbal and physical assaults against Asian Americans have been reported during the pandemic.
-
-This culture of anti-Asian violence has also impacted schools, with many Asian students reporting incidents of racism and discrimination in the classroom. Reports show 68% of attacks were verbal harassment. Some students may have faced racially discriminated comments, while others may have experienced exclusion or isolation from their peers. These reports have drawn our attention. We are eager to learn if there is a need to increase education and awareness among students, as well as efforts to combat racism and discrimination in all forms.
-
 We conducted a study to determine if there was a correlation between the increasing anti-Asian sentiment and school bullying in the United States. To do this, we analyzed the correlation between the search frequency for the term "school bullying" and the Asian population of each state. @fig-3 and @fig-4 were used to compare the search frequency of the keyword "school bullying" and the date.
 
 ```{r}
@@ -238,7 +234,7 @@ According to our previous investigations, search frequency for bullying in the t
 # Discussion
 ## Bullying search relate to COVID-19 
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
+write a little here
 
 ## Correlation between asian population of states and school bullying numbers
 
@@ -249,6 +245,7 @@ This culture of anti-Asian violence has also impacted schools, with many Asian s
 In the previous section, our investigation did not reveal any correlation between the Asian population of a state and the frequency of searches related to school bullying by comparing trends in two graphs. While anti-Asian culture is still a large concern in the U.S., it does not seem to have a direct impact on school bullying. It is possible that factors like school policies, awareness campaigns, and changes in social media usage have made a positive impact on preventing discrimination and stereotyping from happening.
 
 ## Comparing top 10 with highest Asian population and bottom 10 states with lowest Asian population
+write a little here
 
 # Weaknesses
 
