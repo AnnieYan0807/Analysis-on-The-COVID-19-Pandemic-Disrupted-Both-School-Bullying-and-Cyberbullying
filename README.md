@@ -1,4 +1,4 @@
-# Analysis-on-The-COVID-19-Pandemic-Disrupted-Both-School-Bullying-and-Cyberbullying
+#The COVID-19 Pandemic's Impact on Bullying Search Intensity with respect to Asian Population
 
 This repository contains code and data to produce a paper which is a reproduction of some aspects of Bacher-Hicks, Goodman, Green and Holt (2022)'s paper: The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying. Additionally, there is also code to perform a replication of Figure 1 in that paper.
 
