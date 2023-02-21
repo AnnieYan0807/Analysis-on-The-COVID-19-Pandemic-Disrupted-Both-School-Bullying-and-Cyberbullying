@@ -4,7 +4,7 @@ author:
   - Will Davidson
   - Jason Ngo
   - Annie Yan
-thanks: "Code and data are available at: https://github.com/AnnieYan0807/Analysis-on-The-COVID-19-Pandemic-Disrupted-Both-School-Bullying-and-Cyberbullying."
+thanks: "Code and data are available at: https://github.com/AnnieYan0807/Analysis-on-The-COVID-19-Pandemic-Disrupted-Both-School-Bullying-and-Cyberbullying. The replication on the SSRP can be found at : https://doi.org/10.48152/ssrp-54f4-p919"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
