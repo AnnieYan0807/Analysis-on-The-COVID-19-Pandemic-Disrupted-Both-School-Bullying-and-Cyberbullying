@@ -7,8 +7,11 @@ author:
 thanks: "Code and data are available at: https://github.com/AnnieYan0807/Analysis-on-The-COVID-19-Pandemic-Disrupted-Both-School-Bullying-and-Cyberbullying. The replication on the SSRP can be found at : https://doi.org/10.48152/ssrp-54f4-p919"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "The Covid-19 pandemic incited a wave of anti-Asian hate crimes across the United States including derogatory language in the media, random bullying, and violent, senseless murders. This paper analyzes how high school closures and the shift to online learning by schools throughout the pandemic, impacted incidents of bullying of Asian students compared to non Asian students when compared to pre-pandemic trends and in-person learning. Results suggest that while the overall trend in bullying of high school students has been in decline across all states between 2016-2021, with a larger drop during Covid-19, the states with high Asian populations saw greater incidents of bullying when compared to states with low Asian populations over the six year period. These findings tell both a good news story of declining bullying trends in the US school system and a highly concerning narrative that anti-Asian bullying is not a result of Covid-19, but rather an intensified awareness of pre-existing racism.
-format: pdf
+format: 
+  pdf:
+    documentclass: article
+    geometry: margin = 1in
+    abstract: "The Covid-19 pandemic incited a wave of anti-Asian hate crimes across the United States including derogatory language in the media, random bullying, and violent, senseless murders. This paper analyzes how high school closures and the shift to online learning by schools throughout the pandemic, impacted incidents of bullying of Asian students compared to non Asian students when compared to pre-pandemic trends and in-person learning. Results suggest that while the overall trend in bullying of high school students has been in decline across all states between 2016-2021, with a larger drop during Covid-19, the states with high Asian populations saw greater incidents of bullying when compared to states with low Asian populations over the six year period. These findings tell both a good news story of declining bullying trends in the US school system and a highly concerning narrative that anti-Asian bullying is not a result of Covid-19, but rather an intensified awareness of pre-existing racism."
 number-sections: true
 bibliography: references.bib
 ---
@@ -74,8 +77,6 @@ The data from Youth Risk Behavior Survey was collected from high schools through
 #| warning: false
 
 library(tidyverse)
-
-#### use this code to graph the 3 bully datas ####
 
 sum_bully_data |> ggplot(aes(x = date, y = sum)) + 
   geom_col() +
@@ -144,8 +145,6 @@ cleaned_schbully_data |> ggplot(aes(x = date,
 ```
 
 @fig-3 shows the frequency of the keyword "school bullying" searched online within the top ten states with the highest Asian population. The graph indicates that March 1st, 2018, had the highest number of searches for "school bullying" at over 400. Typically, the search frequency for "school bullying" is highest in March, and there is a significant drop in search frequency every July at approximately 150 searches due to summer vacation. In contrast, data for September and January are relatively closer to the average, ranging from 150 to 300, due to those dates coinciding with the start of new school semesters.
-
-\newpage
 
 ```{r}
 #| label: fig-4
@@ -242,7 +241,7 @@ This culture of anti-Asian violence has also impacted schools, with many Asian s
 
 While our investigation did not reveal any correlation between the Asian population of a state and the frequency of searches related to school bullying, there may have been sampling bias in play. From (@cit7), Asian Americans are less likely to report bullying to adults in comparison to non-Asian Americans. It may be the case that more Asian Americans are getting bullied, but for reasons such as culture, Asian Americans will not report bullying. If someone is not going to report bullying to an adult, will they search it up online or simply internalize it?
 
-## Comparing the Top 10 Asian Population states with the Bottom 10
+## Comparing the Top 10 Asian Population States with the Bottom 10
 
 The top 10 Asian population states experienced more school and cyber bullying than the bottom 10 Asian population states. From (@cit7), there has been a 70% increase in Asian American cyberbullying in 2020. Anti-Asian xenophobia fueled by Covid-19 has led to an increase of hate towards Asian-Americans. With this in mind, Asian population does correlate with respect to the disparity between bullying searches from the top 10 Asian population states with bullying searches from the bottom 10 Asian population states.
 
@@ -264,7 +263,13 @@ When on the internet, the average individual is working with information about t
 
 # Next steps
 
-Further studies are crucial for a deeper understanding. Some potential steps include establishing more in-depth data analysis, adding more control variables, and conducting formal correlation tests. To establish a more in-depth data analysis on school bullying and its relationship with the Asian population, we suggest introducing more factors that relate to school bullying, such as other related search terms and various social media, to provide a more complete picture of the issue. Adding more control variables is another direction to further testing school bullying and its relationship with the Asian population. Age range, race, gender, or even socioeconomic status all can influence school bullying. Taking these factors into consideration can help us to identify potential areas for intervention. Furthermore, it is important to conduct formal correlation tests to determine the statistical significance of the relationship between school bullying and the Asian population. Gathering more data, such as Asian population in different states, can be helpful in this regard. Additionally, gathering data and performing analysis on specific schools with varying Asian student populations would also be beneficial. The correlation coefficient can be calculated to determine the strength and direction of the relationship between the two variables. Additional research is necessary to identify the underlying factors driving the relationship between school bullying and the Asian population.
+Further studies are crucial for a deeper understanding. Some potential steps include establishing more in-depth data analysis, adding more control variables, and conducting formal correlation tests. 
+
+To establish a more in-depth data analysis on school bullying and its relationship with the Asian population, we suggest introducing more factors that relate to school bullying, such as other related search terms and various social media, to provide a more complete picture of the issue. Adding more control variables is another direction to further testing school bullying and its relationship with the Asian population. Age range, race, gender, or even socioeconomic status all can influence school bullying. Taking these factors into consideration can help us to identify potential areas for intervention. 
+
+Furthermore, it is important to conduct formal correlation tests to determine the statistical significance of the relationship between school bullying and the Asian population. Gathering more data, such as Asian population in different states, can be helpful in this regard. Additionally, gathering data and performing analysis on specific schools with varying Asian student populations would also be beneficial. The correlation coefficient can be calculated to determine the strength and direction of the relationship between the two variables. 
+
+Additional research is necessary to identify the underlying factors driving the relationship between school bullying and the Asian population.
 
 \newpage  
 
