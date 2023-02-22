@@ -7,7 +7,7 @@ author:
 thanks: "Code and data are available at: https://github.com/AnnieYan0807/Analysis-on-The-COVID-19-Pandemic-Disrupted-Both-School-Bullying-and-Cyberbullying. The replication on the SSRP can be found at : https://doi.org/10.48152/ssrp-54f4-p919"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "The Covid-19 pandemic incited a wave of anti-Asian hate crimes across the United States including derogatory language in the media, random bullying, and violent, senseless murders. This paper analyzes how high school closures and the shift to online learning by schools throughout the pandemic, impacted incidents of bullying of Asian students compared to non Asian students when compared to pre-pandemic trends and in-person learning. Results suggest that while the overall trend in bullying of high school students has been in decline across all states between 2016-2021, with a larger drop during Covid-19, the states with high Asian populations saw greater incidents of bullying when compared to states with low Asian populations over the six year period. These findings tell both a good news story of declining bullying trends in the US school system and a highly concerning narrative that anti-Asian bullying is not a result of Covid-19, but rather an intensified awareness of pre-existing systemic racism in our learning institutions."
 format: pdf
 number-sections: true
 bibliography: references.bib
