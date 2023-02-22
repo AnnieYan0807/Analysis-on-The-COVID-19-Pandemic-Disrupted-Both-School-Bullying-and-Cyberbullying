@@ -11,12 +11,11 @@
 #### Workspace setup ####
 library(tidyverse)
 library(lubridate)
-# [...UPDATE THIS...]
 
 #### Clean data ####
-# [...UPDATE THIS...]
 
-##National wide data##
+##Nation wide data##
+
 #create new dataset: national schbully data 
 national_schbully_data <- state_schbully_data_raw
 national_schbully_data <- national_schbully_data |> mutate(keyword=recode(keyword, '%2Fm%2F03m50g4' = 'School Bullying'))
@@ -71,25 +70,30 @@ state_schbully_data_lowasp <- state_schbully_data_raw |> filter(dma_json_code ==
                                                        dma_json_code == 'US-ME' | dma_json_code == 'US-KY' | dma_json_code == 'US-MS' |
                                                        dma_json_code == 'US-AR', na.rm = TRUE)
 
-#Cleaning up value names so they are legible
+## Cleaning up value names so they are legible ##
+# Top 10 states with highest asian population #
 state_bully_data <- state_bully_data |> mutate(keyword=recode(keyword, '%2Fm%2F027vd9' = 'School & Cyberbullying'))
 state_cybully_data <- state_cybully_data |> mutate(keyword=recode(keyword, '%2Fm%2F07km37' = 'Cyberbullying'))
 state_schbully_data <- state_schbully_data |> mutate(keyword=recode(keyword, '%2Fm%2F03m50g4' = 'School Bullying'))
 
+# Bottom 10 states with lowest asian population #
 state_bully_data_lowasp <- state_bully_data_lowasp |> mutate(keyword=recode(keyword, '%2Fm%2F027vd9' = 'School & Cyberbullying'))
 state_cybully_data_lowasp <- state_cybully_data_lowasp |> mutate(keyword=recode(keyword, '%2Fm%2F07km37' = 'Cyberbullying'))
 state_schbully_data_lowasp <- state_schbully_data_lowasp |> mutate(keyword=recode(keyword, '%2Fm%2F03m50g4' = 'School Bullying'))
 
-#Rename dma_json_code column to State.Name for legibility
+## Rename dma_json_code column to State.Name for legibility ##
+# Top 10 states with highest asian population #
 state_bully_data <- state_bully_data |> rename(State.Name = dma_json_code)
 state_cybully_data <- state_cybully_data |> rename(State.Name = dma_json_code)
 state_schbully_data <- state_schbully_data |> rename(State.Name = dma_json_code)
 
+# Bottom 10 states with lowest asian population #
 state_bully_data_lowasp <- state_bully_data_lowasp |> rename(State.Name = dma_json_code)
 state_cybully_data_lowasp <- state_cybully_data_lowasp |> rename(State.Name = dma_json_code)
 state_schbully_data_lowasp <- state_schbully_data_lowasp |> rename(State.Name = dma_json_code)
 
-#Cleaning up state names so they are easier to read
+## Cleaning up state names so they are easier to read ##
+# Top 10 states with highest asian population #
 state_bully_data <- state_bully_data |> mutate(State.Name=recode(State.Name, 
                                                               'US-CA' = 'California',
                                                               'US-NY' = 'New York',
@@ -124,6 +128,7 @@ state_schbully_data <- state_schbully_data |> mutate(State.Name=recode(State.Nam
                                                                  'US-VA' = 'Virginia',
                                                                  'US-MA' = 'Massachusetts'))
 
+# Bottom 10 states with lowest asian population #
 state_bully_data_lowasp <- state_bully_data_lowasp |> mutate(State.Name=recode(State.Name, 
                                                                                'US-AR' = 'Arkansas',
                                                                                'US-ME' = 'Maine',
@@ -158,7 +163,8 @@ state_schbully_data_lowasp <- state_schbully_data_lowasp |> mutate(State.Name=re
                                                                                 'US-WY' = 'Wyoming',
                                                                                 'US-KY' = 'Kentucky'))
 
-#Separating the dates to filter them
+## Separating the dates to filter them ##
+# Top 10 states with highest asian population #
 state_bully_data <- state_bully_data |> mutate(year = lubridate::year(date), 
                                                    month = lubridate::month(date), 
                                                    day = lubridate::day(date))
@@ -169,6 +175,7 @@ state_schbully_data <- state_schbully_data |> mutate(year = lubridate::year(date
                                                month = lubridate::month(date), 
                                                day = lubridate::day(date))
 
+# Bottom 10 states with lowest asian population #
 state_bully_data_lowasp <- state_bully_data_lowasp |> mutate(year = lubridate::year(date), 
                                                month = lubridate::month(date), 
                                                day = lubridate::day(date))
@@ -179,30 +186,36 @@ state_schbully_data_lowasp <- state_schbully_data_lowasp |> mutate(year = lubrid
                                                      month = lubridate::month(date), 
                                                      day = lubridate::day(date))
 
-#Selecting Jan, Mar, Jul & Sep as they represent 3 months of a school year and one summer month
+## Selecting Jan, Mar, Jul & Sep as they represent 3 months of a school year and one summer month ##
+# Top 10 states with highest asian population #
 state_bully_data <- state_bully_data |> filter(month == 1 | month == 7 | month == 9 | month == 3)
 state_cybully_data <- state_cybully_data |> filter(month == 1 | month == 7 | month == 9 | month == 3)
 state_schbully_data <- state_schbully_data |> filter(month == 1 | month == 7 | month == 9 | month == 3)
 
+# Bottom 10 states with lowest asian population #
 state_bully_data_lowasp <- state_bully_data_lowasp |> filter(month == 1 | month == 7 | month == 9 | month == 3)
 state_cybully_data_lowasp <- state_cybully_data_lowasp |> filter(month == 1 | month == 7 | month == 9 | month == 3)
 state_schbully_data_lowasp <- state_schbully_data_lowasp |> filter(month == 1 | month == 7 | month == 9 | month == 3)
 
-
-#Using data from 2016 and above
+ 
+## Using data from 2016 and above ##
+# Top 10 states with highest asian population #
 state_bully_data <- state_bully_data |> filter(year > 2015)
 state_cybully_data <- state_cybully_data |> filter(year > 2015)
 state_schbully_data <- state_schbully_data |> filter(year > 2015)
 
+# Bottom 10 states with lowest asian population #
 state_bully_data_lowasp <- state_bully_data_lowasp |> filter(year > 2015)
 state_cybully_data_lowasp <- state_cybully_data_lowasp |> filter(year > 2015)
 state_schbully_data_lowasp <- state_schbully_data_lowasp |> filter(year > 2015)
 
-#Summarized sum by the 4 months, saved in another variable that'll solely be used to graph
+## Summarized sum by the 4 months, saved in another variable that'll solely be used to graph ##
+# Top 10 states with highest asian population #
 state_bully_data_sum <- state_bully_data|>group_by(date)|>summarise(sum = sum(hits))
 state_cybully_data_sum <- state_cybully_data|>group_by(date)|>summarise(sum = sum(hits))
 state_schbully_data_sum <- state_schbully_data|>group_by(date)|>summarise(sum = sum(hits))
 
+# Bottom 10 states with lowest asian population #
 state_bully_data_lowasp_sum <- state_bully_data_lowasp|>group_by(date)|>summarise(sum = sum(hits))
 state_cybully_data_lowasp_sum <- state_cybully_data_lowasp|>group_by(date)|>summarise(sum = sum(hits))
 state_schbully_data_lowasp_sum <- state_schbully_data_lowasp|>group_by(date)|>summarise(sum = sum(hits))

@@ -15,8 +15,6 @@ library(haven)
 #Code is manually downloaded from https://www.openicpsr.org/openicpsr/project/156901/version/V1/view
 #To download, please login with an existing ICPSR account or register a new account
 
-#raw_data <- read_dta('/Users/annie/Desktop/Spring 2023/Worlds become data/Analysis on The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying/draft/data/analysis_file.dta')
-
 #### Save data ####
 
 # Locally save the downloaded data in the project space
